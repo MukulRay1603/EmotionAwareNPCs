@@ -37,21 +37,21 @@ phase1_report/
 - [x] System architecture diagram
 
 ### ⏳ P1 - CV Lead (In Progress)
-- [ ] FER baseline model (MobileNetV2)
+- [x] FER baseline model (MobileNetV2)
 - [ ] ONNX export
 - [ ] Webcam inference script
 - [ ] emotion.json output generation
 - [ ] Live prediction demo
 
 ### ⏳ P2 - Unity Lead (In Progress)
-- [ ] Minimal Unity scene with NPC
+- [x] Minimal Unity scene with NPC
 - [ ] Coroutine for emotion.json reading
 - [ ] Emotion-to-dialogue mapping
 - [ ] Cooldown implementation (2s)
 - [ ] 10-second demo video
 
 ### ⏳ P3 - Data & Eval Lead (In Progress)
-- [ ] 500 images from FER-2013 organized
+- [x] 500 images from FER-2013 organized
 - [ ] Dataset summary table
 - [ ] Baseline accuracy metrics
 - [ ] Report draft sections
