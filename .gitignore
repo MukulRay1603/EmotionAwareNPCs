@@ -1,3 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Output and generated files
+data/fer2013/y_true.txt
+data/fer2013/y_pred.txt
+output/
+*.jpg
+*.png
+
+# Environment files
+.env
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
