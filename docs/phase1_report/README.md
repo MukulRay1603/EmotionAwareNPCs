@@ -1,10 +1,10 @@
 # Phase 1 Report - Emotion-Aware NPCs
 
 ## Team Members
-- **P1 (Rahul Sharma)**: CV Lead - FER baseline, core CV modules
-- **P2 (Mukul Ray)**: Unity Lead - Webcam capture, UI, game logic
-- **P3 (Karthik Ramanathan)**: Data & Eval Lead - Datasets, user study
-- **P4 (Taner Bulbul)**: MLOps & Release Lead - Repo management, CI/CD
+- **P1 (Mukul Ray)**: Unity Lead - Webcam capture, UI, game logicP2 
+- **P2 (Taner Bulbul)**: Data & Eval Lead - Datasets, user study
+- **P3 (Rahul Sharma)**: CV Lead - FER baseline, core CV modulesP3 
+- **P4 (Karthik Ramanathan)**: MLOps & Release Lead - Repo management, CI/CD
 
 ## Phase 1 Objectives
 Demonstrate an end-to-end working prototype: webcam → emotion → NPC reaction
@@ -139,7 +139,7 @@ Process new frame and return emotion
 
 ## Next Steps for Each Team Member
 
-### P1 (Rahul) - CV Lead
+### P1 (Karthik) - CV Lead
 1. Train/load FER baseline model
 2. Export to ONNX format
 3. Create webcam inference script
@@ -153,14 +153,14 @@ Process new frame and return emotion
 4. Add cooldown timer and debouncing
 5. Record 10-second integration demo
 
-### P3 (Karthik) - Data & Eval
+### P3 (Taner) - Data & Eval
 1. Download and organize FER-2013 subset
 2. Create dataset summary table
 3. Compute baseline accuracy metrics
 4. Draft report sections
 5. Prepare evaluation criteria
 
-### P4 (Taner) - MLOps
+### P4 (Rahul) - MLOps
 1. ✅ Repository structure complete
 2. ✅ API backend complete
 3. Monitor team integration
