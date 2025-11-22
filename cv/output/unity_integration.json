@@ -1,0 +1,29 @@
+{
+  "flag_changes": [
+    {
+      "time": 2.893183708190918,
+      "flag": "NEUTRAL",
+      "confidence": 0.6
+    }
+  ],
+  "parameters": {
+    "ema_alpha": 0.7,
+    "spike_threshold": 0.35,
+    "stress_valence_threshold": -0.4,
+    "stress_arousal_threshold": 0.5,
+    "ear_fatigue_threshold": 0.22,
+    "motion_threshold": 5.0,
+    "confidence_threshold": 0.55,
+    "decision_window_size": 8
+  },
+  "summary": {
+    "total_frames": 448,
+    "total_flag_changes": 1,
+    "flag_distribution": {
+      "NEUTRAL": {
+        "count": 434,
+        "percentage": 100.0
+      }
+    }
+  }
+}
