@@ -121,22 +121,55 @@ class ModuleB:
         return averaged_result
     
     def send_to_module_c(self, data):
-        """Send processed data to Module C"""
-        try:
-            if self.module_c_socket is None:
-                # Connect to Module C
-                self.module_c_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-                self.module_c_socket.connect((MODULE_C_HOST, MODULE_C_PORT))
-                print(f"✅ Connected to Module C at {MODULE_C_HOST}:{MODULE_C_PORT}")
-            
-            # Send data
-            message = json.dumps(data)
-            self.module_c_socket.sendall(message.encode('utf-8') + b'\n')
-            print(f"📤 Sent to Module C: {data['combined_emotion']}")
-            
-        except Exception as e:
-            print(f"⚠️  Could not send to Module C: {e}")
-            self.module_c_socket = None
+        """Send processed data to Module C and wait for response"""
+        max_retries = 3
+        retry_count = 0
+        
+        while retry_count < max_retries:
+            try:
+                # Create fresh connection for each message
+                module_c_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                module_c_socket.connect((MODULE_C_HOST, MODULE_C_PORT))
+                
+                # Send data
+                message = json.dumps(data) + '\n'
+                module_c_socket.sendall(message.encode('utf-8'))
+                print(f"📤 Sent to Module C: {data.get('combined_emotion', 'N/A')}")
+                
+                # Wait for response from Module C
+                print(f"⏳ Waiting for NPC response from Module C...")
+                buffer = b''
+                while True:
+                    chunk = module_c_socket.recv(1024)
+                    if not chunk:
+                        break
+                    buffer += chunk
+                    if b'\n' in buffer:
+                        break
+                
+                if buffer:
+                    response_str = buffer.decode('utf-8').strip()
+                    response = json.loads(response_str)
+                    print(f"📥 Received NPC response from Module C")
+                    
+                    # Close connection
+                    module_c_socket.close()
+                    return response
+                else:
+                    print(f"⚠️  No response from Module C")
+                    module_c_socket.close()
+                    return None
+                
+            except Exception as e:
+                retry_count += 1
+                if retry_count < max_retries:
+                    print(f"⚠️  Failed to communicate with Module C (attempt {retry_count}/{max_retries}): {e}")
+                    time.sleep(0.5)
+                else:
+                    print(f"❌ Could not communicate with Module C after {max_retries} attempts")
+                    return None
+        
+        return None
     
     def handle_client(self, client_socket):
         """Handle incoming connection from Module A"""
@@ -192,10 +225,6 @@ class ModuleB:
                     **averaged
                 }
                 
-                # Send response back to Module A
-                response_json = json.dumps(response)
-                client_socket.sendall(response_json.encode('utf-8'))
-                
                 # Prepare data for Module C
                 combined_data = {
                     'text': text,
@@ -206,8 +235,21 @@ class ModuleB:
                     'emotion_metrics': averaged
                 }
                 
-                # Send to Module C
-                self.send_to_module_c(combined_data)
+                # Send to Module C and get NPC response
+                npc_response_data = self.send_to_module_c(combined_data)
+                
+                # Add NPC response to the response for Module A
+                if npc_response_data:
+                    response['npc_response'] = npc_response_data.get('npc_response', 'Hello!')
+                    response['npc_status'] = npc_response_data.get('status', 'unknown')
+                    print(f"\n💬 NPC Response: \"{response['npc_response']}\"")
+                else:
+                    response['npc_response'] = "I'm here to help!"
+                    response['npc_status'] = 'no_response'
+                
+                # Send response back to Module A
+                response_json = json.dumps(response)
+                client_socket.sendall(response_json.encode('utf-8'))
                 
             else:
                 print(f"⚠️  No emotions found in database")

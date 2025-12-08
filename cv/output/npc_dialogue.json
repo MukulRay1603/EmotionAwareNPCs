@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "player_text": "Hello]",
+  "npc_response": "\"Hey, it's great to see you! I'm glad you stopped by.  Let's catch up on everything that's been going on.",
+  "emotion": "surprise",
+  "flag": "PENDING",
+  "confidence": 0.6599999999999999,
+  "valence": 0.4937298394741935,
+  "arousal": 0.692638246686611,
+  "is_fatigued": false,
+  "timestamp": 1765185284.471286
+}

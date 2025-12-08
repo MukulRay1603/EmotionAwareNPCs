@@ -74,7 +74,7 @@ class ModuleA:
                 print(f"   DateTime: {message['datetime']}")
                 
                 # Wait for response from Module B
-                response = self.socket.recv(4096).decode('utf-8')
+                response = self.socket.recv(8192).decode('utf-8')
                 if response:
                     response_data = json.loads(response)
                     print(f"\n📥 Response from Module B:")
@@ -84,6 +84,16 @@ class ModuleA:
                     print(f"   Confidence: {response_data.get('confidence'):.3f}")
                     print(f"   Valence: {response_data.get('valence'):+.3f}")
                     print(f"   Arousal: {response_data.get('arousal'):+.3f}")
+                    
+                    # Display NPC response
+                    npc_response = response_data.get('npc_response')
+                    if npc_response:
+                        print(f"\n{'='*70}")
+                        print(f"  💬 NPC SAYS:")
+                        print(f"{'='*70}")
+                        print(f"\n   \"{npc_response}\"")
+                        print(f"\n{'='*70}")
+                    
                     return True
                     
             except (ConnectionRefusedError, ConnectionResetError, 
