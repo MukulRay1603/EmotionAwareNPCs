@@ -1,6 +1,6 @@
 {
   "task": "Task 6: Feature Fusion System",
-  "timestamp": "2025-11-22T12:12:46.044015",
+  "timestamp": "2025-12-07T20:50:15.098797",
   "parameters": {
     "ema_alpha": 0.7,
     "spike_threshold": 0.35,
@@ -12,254 +12,473 @@
     "decision_window_size": 8
   },
   "summary": {
-    "total_frames": 448,
-    "total_flag_changes": 1,
+    "total_frames": 578,
+    "total_flag_changes": 22,
     "flag_distribution": {
       "NEUTRAL": {
-        "count": 434,
-        "percentage": 100.0
+        "count": 355,
+        "percentage": 65.74
+      },
+      "STRESS": {
+        "count": 185,
+        "percentage": 34.26
       }
     }
   },
   "flag_transitions": [
     {
-      "time": 2.89,
+      "time": 1.99,
       "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 17.15,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 19.52,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 20.26,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 21.23,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 21.95,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 22.66,
+      "flag": "NEUTRAL",
+      "confidence": 0.6
+    },
+    {
+      "time": 29.77,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 32.06,
+      "flag": "NEUTRAL",
+      "confidence": 0.6
+    },
+    {
+      "time": 32.86,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 35.66,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 37.27,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 40.14,
+      "flag": "NEUTRAL",
+      "confidence": 0.5
+    },
+    {
+      "time": 41.04,
+      "flag": "STRESS",
+      "confidence": 0.7
+    },
+    {
+      "time": 41.24,
+      "flag": "NEUTRAL",
+      "confidence": 0.8
+    },
+    {
+      "time": 43.12,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 48.25,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 55.1,
+      "flag": "STRESS",
+      "confidence": 0.7
+    },
+    {
+      "time": 56.0,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 56.72,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 58.37,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 59.38,
+      "flag": "STRESS",
       "confidence": 0.6
     }
   ],
   "frame_by_frame_data": [
     {
       "time": 0.0,
-      "flag": "NEUTRAL",
+      "flag": "STRESS",
       "stable_flag": "PENDING",
       "confidence": 0.6,
       "features": {
-        "valence": -0.004,
-        "arousal": 0.004,
+        "valence": -0.8,
+        "arousal": 0.5,
         "delta_E": 0.0,
         "is_spike": false,
-        "ear": 0.253,
+        "ear": 0.272,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
       "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
         "confidence": 0.6
       }
     },
     {
-      "time": 2.45,
+      "time": 1.76,
       "flag": "NEUTRAL",
       "stable_flag": "PENDING",
-      "confidence": 0.6,
+      "confidence": 0.7,
       "features": {
-        "valence": -0.075,
-        "arousal": 0.011,
-        "delta_E": 0.053,
+        "valence": -0.799,
+        "arousal": 0.5,
+        "delta_E": 0.0,
         "is_spike": false,
-        "ear": 0.238,
+        "ear": 0.3,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
       "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
         "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
+        "confidence": 0.7
       }
     },
     {
-      "time": 3.54,
+      "time": 2.37,
       "flag": "NEUTRAL",
       "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
+      "confidence": 0.7,
       "features": {
-        "valence": -0.023,
-        "arousal": 0.02,
-        "delta_E": 0.156,
+        "valence": -0.799,
+        "arousal": 0.5,
+        "delta_E": 0.001,
         "is_spike": false,
-        "ear": 0.232,
+        "ear": 0.288,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
       "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
         "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 2.95,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.798,
+        "arousal": 0.499,
+        "delta_E": 0.001,
+        "is_spike": false,
+        "ear": 0.29,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 3.53,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.799,
+        "arousal": 0.499,
+        "delta_E": 0.001,
+        "is_spike": false,
+        "ear": 0.298,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 4.12,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.797,
+        "arousal": 0.498,
+        "delta_E": 0.003,
+        "is_spike": false,
+        "ear": 0.301,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
       }
     },
     {
       "time": 4.66,
       "flag": "NEUTRAL",
       "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
+      "confidence": 0.7,
       "features": {
-        "valence": -0.016,
-        "arousal": 0.023,
-        "delta_E": 0.008,
-        "is_spike": false,
-        "ear": 0.245,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 5.76,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.017,
-        "arousal": 0.005,
-        "delta_E": 0.007,
-        "is_spike": false,
-        "ear": 0.24,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 6.95,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.011,
-        "arousal": 0.001,
-        "delta_E": 0.019,
-        "is_spike": false,
-        "ear": 0.241,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 8.05,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.029,
-        "arousal": -0.011,
-        "delta_E": 0.034,
-        "is_spike": false,
-        "ear": 0.246,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 9.15,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.102,
-        "arousal": 0.072,
-        "delta_E": 0.075,
-        "is_spike": false,
-        "ear": 0.236,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 10.22,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.02,
-        "arousal": 0.023,
-        "delta_E": 0.014,
-        "is_spike": false,
-        "ear": 0.243,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 11.39,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.008,
-        "arousal": 0.005,
-        "delta_E": 0.005,
-        "is_spike": false,
-        "ear": 0.235,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 12.58,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.005,
-        "arousal": 0.003,
+        "valence": -0.798,
+        "arousal": 0.5,
         "delta_E": 0.004,
         "is_spike": false,
-        "ear": 0.233,
+        "ear": 0.285,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 5.19,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.8,
+        "arousal": 0.5,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.276,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 5.73,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.8,
+        "arousal": 0.5,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.312,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 6.24,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.787,
+        "arousal": 0.486,
+        "delta_E": 0.001,
+        "is_spike": false,
+        "ear": 0.263,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 6.77,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.51,
+        "arousal": 0.316,
+        "delta_E": 0.102,
+        "is_spike": false,
+        "ear": 0.287,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 7.3,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.768,
+        "arousal": 0.48,
+        "delta_E": 0.052,
+        "is_spike": false,
+        "ear": 0.29,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 7.83,
+      "flag": "STRESS",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.626,
+        "arousal": 0.387,
+        "delta_E": 0.391,
+        "is_spike": true,
+        "ear": 0.28,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.7,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 8.3,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.5,
+      "features": {
+        "valence": -0.567,
+        "arousal": 0.35,
+        "delta_E": 0.268,
+        "is_spike": false,
+        "ear": 0.323,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.5
+      }
+    },
+    {
+      "time": 8.74,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.653,
+        "arousal": 0.401,
+        "delta_E": 0.017,
+        "is_spike": false,
+        "ear": 0.336,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 9.21,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.138,
+        "arousal": 0.093,
+        "delta_E": 0.166,
+        "is_spike": false,
+        "ear": 0.282,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
@@ -272,16 +491,38 @@
       }
     },
     {
-      "time": 13.77,
+      "time": 9.64,
       "flag": "NEUTRAL",
       "stable_flag": "NEUTRAL",
       "confidence": 0.6,
       "features": {
-        "valence": 0.128,
-        "arousal": 0.085,
-        "delta_E": 0.299,
+        "valence": -0.003,
+        "arousal": -0.001,
+        "delta_E": 0.012,
         "is_spike": false,
-        "ear": 0.257,
+        "ear": 0.28,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.0,
+        "rush_score": 0.0,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 10.11,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.091,
+        "arousal": 0.194,
+        "delta_E": 0.297,
+        "is_spike": false,
+        "ear": 0.247,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
@@ -294,16 +535,236 @@
       }
     },
     {
-      "time": 14.82,
+      "time": 10.55,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.522,
+        "arousal": 0.319,
+        "delta_E": 0.018,
+        "is_spike": false,
+        "ear": 0.275,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 11.02,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.648,
+        "arousal": 0.405,
+        "delta_E": 0.152,
+        "is_spike": false,
+        "ear": 0.29,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 11.48,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.783,
+        "arousal": 0.493,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.293,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 11.95,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.786,
+        "arousal": 0.49,
+        "delta_E": 0.004,
+        "is_spike": false,
+        "ear": 0.26,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 12.42,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.774,
+        "arousal": 0.483,
+        "delta_E": 0.02,
+        "is_spike": false,
+        "ear": 0.295,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 12.9,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.795,
+        "arousal": 0.496,
+        "delta_E": 0.003,
+        "is_spike": false,
+        "ear": 0.23,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 13.36,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.8,
+        "arousal": 0.5,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.219,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.215,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 13.83,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.799,
+        "arousal": 0.5,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.275,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 14.31,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": 0.638,
+        "arousal": 0.581,
+        "delta_E": 0.114,
+        "is_spike": false,
+        "ear": 0.284,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 14.81,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": 0.437,
+        "arousal": 0.573,
+        "delta_E": 0.05,
+        "is_spike": false,
+        "ear": 0.284,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 15.28,
       "flag": "NEUTRAL",
       "stable_flag": "NEUTRAL",
       "confidence": 0.6,
       "features": {
-        "valence": 0.04,
-        "arousal": 0.028,
-        "delta_E": 0.053,
+        "valence": -0.04,
+        "arousal": 0.045,
+        "delta_E": 0.023,
         "is_spike": false,
-        "ear": 0.256,
+        "ear": 0.292,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
@@ -316,38 +777,38 @@
       }
     },
     {
-      "time": 15.39,
+      "time": 15.75,
       "flag": "NEUTRAL",
       "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
+      "confidence": 0.5,
       "features": {
-        "valence": -0.004,
-        "arousal": 0.019,
-        "delta_E": 0.026,
-        "is_spike": false,
+        "valence": -0.31,
+        "arousal": 0.483,
+        "delta_E": 0.711,
+        "is_spike": true,
         "ear": 0.276,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
       "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
+        "stress_score": 0.4,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
         "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
+        "confidence": 0.5
       }
     },
     {
-      "time": 16.0,
+      "time": 16.26,
       "flag": "NEUTRAL",
       "stable_flag": "NEUTRAL",
       "confidence": 0.6,
       "features": {
-        "valence": -0.203,
-        "arousal": 0.191,
-        "delta_E": 0.036,
+        "valence": -0.002,
+        "arousal": 0.003,
+        "delta_E": 0.001,
         "is_spike": false,
-        "ear": 0.232,
+        "ear": 0.248,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
@@ -360,14 +821,234 @@
       }
     },
     {
-      "time": 16.61,
+      "time": 16.73,
+      "flag": "STRESS",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.55,
+        "arousal": 0.391,
+        "delta_E": 0.881,
+        "is_spike": true,
+        "ear": 0.239,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.7,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 17.24,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.655,
+        "arousal": 0.539,
+        "delta_E": 0.106,
+        "is_spike": false,
+        "ear": 0.235,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 17.74,
+      "flag": "NEUTRAL",
+      "stable_flag": "STRESS",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.724,
+        "arousal": 0.476,
+        "delta_E": 0.013,
+        "is_spike": false,
+        "ear": 0.188,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.238,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 18.24,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.786,
+        "arousal": 0.503,
+        "delta_E": 0.001,
+        "is_spike": false,
+        "ear": 0.19,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.337,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 18.74,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.777,
+        "arousal": 0.502,
+        "delta_E": 0.024,
+        "is_spike": false,
+        "ear": 0.224,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 19.22,
+      "flag": "NEUTRAL",
+      "stable_flag": "STRESS",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.784,
+        "arousal": 0.497,
+        "delta_E": 0.004,
+        "is_spike": false,
+        "ear": 0.285,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 19.71,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.791,
+        "arousal": 0.496,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.277,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 20.26,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.796,
+        "arousal": 0.501,
+        "delta_E": 0.001,
+        "is_spike": false,
+        "ear": 0.297,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 20.74,
+      "flag": "NEUTRAL",
+      "stable_flag": "STRESS",
+      "confidence": 0.5,
+      "features": {
+        "valence": -0.645,
+        "arousal": 0.406,
+        "delta_E": 0.234,
+        "is_spike": false,
+        "ear": 0.237,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.5
+      }
+    },
+    {
+      "time": 21.23,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.736,
+        "arousal": 0.497,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.268,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 21.73,
       "flag": "STRESS",
       "stable_flag": "NEUTRAL",
       "confidence": 0.6,
       "features": {
-        "valence": -0.614,
-        "arousal": 0.639,
-        "delta_E": 0.14,
+        "valence": -0.667,
+        "arousal": 0.508,
+        "delta_E": 0.077,
         "is_spike": false,
         "ear": 0.254,
         "is_fatigued": false,
@@ -382,192 +1063,16 @@
       }
     },
     {
-      "time": 17.23,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.084,
-        "arousal": 0.094,
-        "delta_E": 0.162,
-        "is_spike": false,
-        "ear": 0.228,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 17.78,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.095,
-        "arousal": 0.068,
-        "delta_E": 0.052,
-        "is_spike": false,
-        "ear": 0.258,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 18.4,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.008,
-        "arousal": 0.059,
-        "delta_E": 0.229,
-        "is_spike": false,
-        "ear": 0.248,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.2,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 18.98,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.191,
-        "arousal": 0.128,
-        "delta_E": 0.942,
-        "is_spike": true,
-        "ear": 0.235,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.4,
-        "rush_score": 0.2,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 19.55,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.028,
-        "arousal": 0.004,
-        "delta_E": 0.025,
-        "is_spike": false,
-        "ear": 0.239,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 20.11,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.509,
-      "features": {
-        "valence": -0.007,
-        "arousal": 0.001,
-        "delta_E": 0.004,
-        "is_spike": false,
-        "ear": 0.144,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.491,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.509
-      }
-    },
-    {
-      "time": 20.69,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.071,
-        "arousal": 0.049,
-        "delta_E": 0.123,
-        "is_spike": false,
-        "ear": 0.256,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 21.27,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.005,
-        "arousal": -0.001,
-        "delta_E": 0.034,
-        "is_spike": false,
-        "ear": 0.247,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 21.85,
+      "time": 22.26,
       "flag": "STRESS",
-      "stable_flag": "NEUTRAL",
+      "stable_flag": "STRESS",
       "confidence": 0.7,
       "features": {
-        "valence": 0.355,
-        "arousal": 0.618,
-        "delta_E": 1.119,
+        "valence": -0.488,
+        "arousal": 0.338,
+        "delta_E": 0.711,
         "is_spike": true,
-        "ear": 0.268,
+        "ear": 0.249,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
@@ -580,14 +1085,1334 @@
       }
     },
     {
-      "time": 22.42,
+      "time": 22.77,
       "flag": "NEUTRAL",
       "stable_flag": "NEUTRAL",
       "confidence": 0.6,
       "features": {
-        "valence": -0.073,
-        "arousal": -0.014,
+        "valence": -0.091,
+        "arousal": 0.013,
+        "delta_E": 0.042,
+        "is_spike": false,
+        "ear": 0.216,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.0,
+        "rush_score": 0.0,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 23.26,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.018,
+        "arousal": -0.013,
+        "delta_E": 0.001,
+        "is_spike": false,
+        "ear": 0.354,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.0,
+        "rush_score": 0.0,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 23.73,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.779,
+        "arousal": 0.486,
+        "delta_E": 0.005,
+        "is_spike": false,
+        "ear": 0.373,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 24.24,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.695,
+        "arousal": 0.434,
+        "delta_E": 0.135,
+        "is_spike": false,
+        "ear": 0.304,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 24.74,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.199,
+        "arousal": -0.039,
+        "delta_E": 0.238,
+        "is_spike": false,
+        "ear": 0.375,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.0,
+        "rush_score": 0.2,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 25.23,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.781,
+        "arousal": 0.487,
+        "delta_E": 0.021,
+        "is_spike": false,
+        "ear": 0.297,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 25.71,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.8,
+        "arousal": 0.5,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.313,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 26.2,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.8,
+        "arousal": 0.5,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.266,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 26.68,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.8,
+        "arousal": 0.5,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.263,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 27.15,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.795,
+        "arousal": 0.497,
+        "delta_E": 0.008,
+        "is_spike": false,
+        "ear": 0.196,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 27.69,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.703,
+        "arousal": 0.438,
+        "delta_E": 0.098,
+        "is_spike": false,
+        "ear": 0.233,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 28.22,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.78,
+        "arousal": 0.487,
+        "delta_E": 0.022,
+        "is_spike": false,
+        "ear": 0.228,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 28.7,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.079,
+        "arousal": 0.047,
+        "delta_E": 0.414,
+        "is_spike": true,
+        "ear": 0.269,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.4,
+        "rush_score": 0.2,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 29.17,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.284,
+        "arousal": 0.15,
+        "delta_E": 0.433,
+        "is_spike": true,
+        "ear": 0.291,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.4,
+        "rush_score": 0.2,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 29.66,
+      "flag": "STRESS",
+      "stable_flag": "PENDING",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.73,
+        "arousal": 0.595,
+        "delta_E": 0.102,
+        "is_spike": false,
+        "ear": 0.344,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 30.16,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.718,
+        "arousal": 0.659,
+        "delta_E": 0.129,
+        "is_spike": false,
+        "ear": 0.282,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 30.65,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.774,
+        "arousal": 0.543,
+        "delta_E": 0.03,
+        "is_spike": false,
+        "ear": 0.313,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 31.15,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.703,
+        "arousal": 0.693,
+        "delta_E": 0.014,
+        "is_spike": false,
+        "ear": 0.172,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 31.63,
+      "flag": "NEUTRAL",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.139,
+        "arousal": 0.179,
+        "delta_E": 0.984,
+        "is_spike": true,
+        "ear": 0.253,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.4,
+        "rush_score": 0.2,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 32.15,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.052,
+        "arousal": 0.067,
+        "delta_E": 0.001,
+        "is_spike": false,
+        "ear": 0.253,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.0,
+        "rush_score": 0.0,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 32.65,
+      "flag": "STRESS",
+      "stable_flag": "PENDING",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.726,
+        "arousal": 0.568,
+        "delta_E": 0.124,
+        "is_spike": false,
+        "ear": 0.256,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 33.15,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.795,
+        "arousal": 0.505,
+        "delta_E": 0.011,
+        "is_spike": false,
+        "ear": 0.365,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 33.72,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.742,
+        "arousal": 0.58,
+        "delta_E": 0.135,
+        "is_spike": false,
+        "ear": 0.223,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 34.25,
+      "flag": "NEUTRAL",
+      "stable_flag": "PENDING",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.058,
+        "arousal": 0.115,
+        "delta_E": 0.131,
+        "is_spike": false,
+        "ear": 0.275,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.0,
+        "rush_score": 0.0,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 34.77,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 1.0,
+      "features": {
+        "valence": -0.462,
+        "arousal": 0.691,
+        "delta_E": 1.027,
+        "is_spike": true,
+        "ear": 0.231,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 1.0,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 1.0
+      }
+    },
+    {
+      "time": 35.33,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.7,
+      "features": {
+        "valence": 0.307,
+        "arousal": 0.5,
+        "delta_E": 1.554,
+        "is_spike": true,
+        "ear": 0.257,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.7,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 35.88,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.5,
+      "features": {
+        "valence": 0.075,
+        "arousal": 0.441,
+        "delta_E": 1.062,
+        "is_spike": true,
+        "ear": 0.286,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.4,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.5
+      }
+    },
+    {
+      "time": 36.39,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.111,
+        "arousal": -0.053,
+        "delta_E": 0.268,
+        "is_spike": false,
+        "ear": 0.232,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.0,
+        "rush_score": 0.2,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 36.94,
+      "flag": "STRESS",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.608,
+        "arousal": 0.577,
+        "delta_E": 0.078,
+        "is_spike": false,
+        "ear": 0.254,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 37.49,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.582,
+        "arousal": 0.558,
+        "delta_E": 0.194,
+        "is_spike": false,
+        "ear": 0.269,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 38.02,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.694,
+        "arousal": 0.69,
+        "delta_E": 0.019,
+        "is_spike": false,
+        "ear": 0.246,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 38.57,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.781,
+        "arousal": 0.536,
+        "delta_E": 0.027,
+        "is_spike": false,
+        "ear": 0.237,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 39.12,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.774,
+        "arousal": 0.551,
+        "delta_E": 0.02,
+        "is_spike": false,
+        "ear": 0.204,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 39.64,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.663,
+        "arousal": 0.64,
+        "delta_E": 0.049,
+        "is_spike": false,
+        "ear": 0.255,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 40.14,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.5,
+      "features": {
+        "valence": -0.231,
+        "arousal": 0.384,
+        "delta_E": 0.229,
+        "is_spike": false,
+        "ear": 0.269,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.0,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.5
+      }
+    },
+    {
+      "time": 40.64,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.247,
+        "arousal": 0.266,
+        "delta_E": 0.861,
+        "is_spike": true,
+        "ear": 0.271,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.4,
+        "rush_score": 0.2,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 41.14,
+      "flag": "NEUTRAL",
+      "stable_flag": "PENDING",
+      "confidence": 0.5,
+      "features": {
+        "valence": -0.438,
+        "arousal": 0.343,
+        "delta_E": 0.319,
+        "is_spike": false,
+        "ear": 0.268,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.5
+      }
+    },
+    {
+      "time": 41.7,
+      "flag": "STRESS",
+      "stable_flag": "PENDING",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.711,
+        "arousal": 0.524,
+        "delta_E": 0.096,
+        "is_spike": false,
+        "ear": 0.243,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 42.23,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.112,
+        "arousal": 0.081,
+        "delta_E": 0.226,
+        "is_spike": false,
+        "ear": 0.25,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.0,
+        "rush_score": 0.2,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 42.79,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.226,
+        "arousal": 0.152,
+        "delta_E": 0.937,
+        "is_spike": true,
+        "ear": 0.289,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.4,
+        "rush_score": 0.2,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 43.36,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.763,
+        "arousal": 0.571,
+        "delta_E": 0.03,
+        "is_spike": false,
+        "ear": 0.296,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 43.9,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.735,
+        "arousal": 0.629,
         "delta_E": 0.015,
+        "is_spike": false,
+        "ear": 0.323,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 44.41,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.729,
+        "arousal": 0.641,
+        "delta_E": 0.015,
+        "is_spike": false,
+        "ear": 0.305,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 44.95,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.724,
+        "arousal": 0.65,
+        "delta_E": 0.01,
+        "is_spike": false,
+        "ear": 0.302,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 45.51,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.729,
+        "arousal": 0.636,
+        "delta_E": 0.008,
+        "is_spike": false,
+        "ear": 0.298,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 46.08,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.739,
+        "arousal": 0.603,
+        "delta_E": 0.05,
+        "is_spike": false,
+        "ear": 0.282,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 46.63,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.537,
+        "arousal": 0.562,
+        "delta_E": 0.28,
+        "is_spike": false,
+        "ear": 0.281,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 47.14,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.773,
+        "arousal": 0.506,
+        "delta_E": 0.014,
+        "is_spike": false,
+        "ear": 0.267,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 47.69,
+      "flag": "NEUTRAL",
+      "stable_flag": "STRESS",
+      "confidence": 0.5,
+      "features": {
+        "valence": -0.291,
+        "arousal": 0.377,
+        "delta_E": 0.737,
+        "is_spike": true,
+        "ear": 0.23,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.4,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.5
+      }
+    },
+    {
+      "time": 48.25,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.797,
+        "arousal": 0.499,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.215,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.29,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 48.74,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.798,
+        "arousal": 0.498,
+        "delta_E": 0.002,
+        "is_spike": false,
+        "ear": 0.306,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 49.18,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.717,
+        "arousal": -0.504,
+        "delta_E": 0.093,
+        "is_spike": false,
+        "ear": 0.307,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.0,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 49.62,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.798,
+        "arousal": 0.492,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.234,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 50.13,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.8,
+        "arousal": 0.5,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.215,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.284,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 50.68,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.5,
+      "features": {
+        "valence": -0.535,
+        "arousal": 0.332,
+        "delta_E": 0.268,
+        "is_spike": false,
+        "ear": 0.23,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.5
+      }
+    },
+    {
+      "time": 51.19,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.462,
+        "arousal": 0.282,
+        "delta_E": 0.099,
+        "is_spike": false,
+        "ear": 0.277,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.0,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 51.72,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.58,
+        "arousal": 0.356,
+        "delta_E": 0.008,
+        "is_spike": false,
+        "ear": 0.286,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 52.26,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.138,
+        "arousal": 0.097,
+        "delta_E": 0.409,
+        "is_spike": true,
+        "ear": 0.241,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.4,
+        "rush_score": 0.2,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 52.82,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.711,
+        "arousal": 0.495,
+        "delta_E": 0.077,
+        "is_spike": false,
+        "ear": 0.238,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 53.34,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.377,
+        "arousal": -0.25,
+        "delta_E": 0.187,
+        "is_spike": false,
+        "ear": 0.254,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.0,
+        "rush_score": 0.0,
+        "fatigue_score": 0.4,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 53.87,
+      "flag": "NEUTRAL",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.142,
+        "arousal": 0.12,
+        "delta_E": 0.326,
         "is_spike": false,
         "ear": 0.251,
         "is_fatigued": false,
@@ -595,65 +2420,197 @@
       },
       "scores": {
         "stress_score": 0.0,
-        "rush_score": 0.0,
+        "rush_score": 0.2,
         "fatigue_score": 0.4,
         "chosen_flag": "NEUTRAL",
         "confidence": 0.6
       }
     },
     {
-      "time": 23.03,
+      "time": 54.36,
       "flag": "NEUTRAL",
       "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
+      "confidence": 0.5,
       "features": {
-        "valence": 0.003,
-        "arousal": 0.009,
-        "delta_E": 0.017,
+        "valence": -0.333,
+        "arousal": 0.316,
+        "delta_E": 0.306,
         "is_spike": false,
-        "ear": 0.256,
+        "ear": 0.262,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
       "scores": {
         "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
+        "rush_score": 0.5,
+        "fatigue_score": 0.2,
         "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
+        "confidence": 0.5
       }
     },
     {
-      "time": 23.64,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.008,
-        "arousal": 0.006,
-        "delta_E": 0.002,
-        "is_spike": false,
-        "ear": 0.245,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 24.25,
+      "time": 54.88,
       "flag": "NEUTRAL",
       "stable_flag": "NEUTRAL",
       "confidence": 0.7,
       "features": {
-        "valence": 0.761,
-        "arousal": 0.508,
-        "delta_E": 0.129,
+        "valence": -0.673,
+        "arousal": 0.484,
+        "delta_E": 0.124,
+        "is_spike": false,
+        "ear": 0.237,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 55.41,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.762,
+        "arousal": 0.503,
+        "delta_E": 0.021,
+        "is_spike": false,
+        "ear": 0.389,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 55.91,
+      "flag": "NEUTRAL",
+      "stable_flag": "PENDING",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.799,
+        "arousal": 0.498,
+        "delta_E": 0.006,
+        "is_spike": false,
+        "ear": 0.365,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 56.4,
+      "flag": "STRESS",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.732,
+        "arousal": 0.619,
+        "delta_E": 0.008,
+        "is_spike": false,
+        "ear": 0.24,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 56.91,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.799,
+        "arousal": 0.502,
+        "delta_E": 0.0,
+        "is_spike": false,
+        "ear": 0.257,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 57.37,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.786,
+        "arousal": 0.528,
+        "delta_E": 0.025,
+        "is_spike": false,
+        "ear": 0.253,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 57.84,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.775,
+        "arousal": 0.549,
+        "delta_E": 0.041,
+        "is_spike": false,
+        "ear": 0.262,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
+        "confidence": 0.6
+      }
+    },
+    {
+      "time": 58.3,
+      "flag": "NEUTRAL",
+      "stable_flag": "PENDING",
+      "confidence": 0.7,
+      "features": {
+        "valence": -0.8,
+        "arousal": 0.499,
+        "delta_E": 0.0,
         "is_spike": false,
         "ear": 0.243,
         "is_fatigued": false,
@@ -668,1344 +2625,68 @@
       }
     },
     {
-      "time": 24.86,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.152,
-        "arousal": 0.092,
-        "delta_E": 0.562,
-        "is_spike": true,
-        "ear": 0.234,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.4,
-        "rush_score": 0.2,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 25.41,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.578,
-      "features": {
-        "valence": 0.095,
-        "arousal": 0.099,
-        "delta_E": 0.005,
-        "is_spike": false,
-        "ear": 0.216,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.422,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.578
-      }
-    },
-    {
-      "time": 26.01,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.068,
-        "arousal": 0.046,
-        "delta_E": 0.088,
-        "is_spike": false,
-        "ear": 0.266,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 26.57,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.02,
-        "arousal": 0.016,
-        "delta_E": 0.011,
-        "is_spike": false,
-        "ear": 0.264,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 27.14,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.067,
-        "arousal": 0.107,
-        "delta_E": 0.226,
-        "is_spike": false,
-        "ear": 0.229,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.2,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 27.73,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.012,
-        "arousal": -0.001,
-        "delta_E": 0.024,
-        "is_spike": false,
-        "ear": 0.237,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 28.35,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.553,
-      "features": {
-        "valence": 0.001,
-        "arousal": 0.012,
-        "delta_E": 0.017,
-        "is_spike": false,
-        "ear": 0.202,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.447,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.553
-      }
-    },
-    {
-      "time": 28.97,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.575,
-      "features": {
-        "valence": 0.001,
-        "arousal": 0.008,
-        "delta_E": 0.006,
-        "is_spike": false,
-        "ear": 0.208,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.425,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.575
-      }
-    },
-    {
-      "time": 29.57,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.456,
-      "features": {
-        "valence": -0.003,
-        "arousal": 0.0,
-        "delta_E": 0.012,
-        "is_spike": false,
-        "ear": 0.201,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.544,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.456
-      }
-    },
-    {
-      "time": 30.12,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.003,
-        "arousal": 0.001,
-        "delta_E": 0.007,
-        "is_spike": false,
-        "ear": 0.291,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 30.68,
+      "time": 58.7,
       "flag": "NEUTRAL",
       "stable_flag": "NEUTRAL",
       "confidence": 0.7,
       "features": {
-        "valence": -0.669,
-        "arousal": 0.464,
-        "delta_E": 0.178,
-        "is_spike": false,
-        "ear": 0.245,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.3,
-        "rush_score": 0.3,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.7
-      }
-    },
-    {
-      "time": 31.29,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.7,
-      "features": {
-        "valence": 0.885,
-        "arousal": 0.599,
-        "delta_E": 0.0,
-        "is_spike": false,
-        "ear": 0.236,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.3,
-        "rush_score": 0.3,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.7
-      }
-    },
-    {
-      "time": 31.87,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.16,
-        "arousal": 0.139,
-        "delta_E": 0.971,
-        "is_spike": true,
-        "ear": 0.231,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.4,
-        "rush_score": 0.2,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 32.48,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.5,
-      "features": {
-        "valence": -0.146,
-        "arousal": 0.349,
-        "delta_E": 0.505,
-        "is_spike": true,
-        "ear": 0.234,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.4,
-        "rush_score": 0.5,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.5
-      }
-    },
-    {
-      "time": 33.07,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.7,
-      "features": {
-        "valence": 0.541,
-        "arousal": 0.876,
-        "delta_E": 0.064,
-        "is_spike": false,
-        "ear": 0.262,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.3,
-        "rush_score": 0.3,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.7
-      }
-    },
-    {
-      "time": 33.64,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.5,
-      "features": {
-        "valence": 0.686,
-        "arousal": 0.459,
-        "delta_E": 0.225,
-        "is_spike": false,
-        "ear": 0.29,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.5,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.5
-      }
-    },
-    {
-      "time": 34.22,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.5,
-      "features": {
-        "valence": 0.621,
-        "arousal": 0.414,
-        "delta_E": 0.239,
-        "is_spike": false,
-        "ear": 0.264,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.5,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.5
-      }
-    },
-    {
-      "time": 34.78,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.7,
-      "features": {
-        "valence": 0.749,
-        "arousal": 0.537,
-        "delta_E": 0.01,
-        "is_spike": false,
-        "ear": 0.26,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.3,
-        "rush_score": 0.3,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.7
-      }
-    },
-    {
-      "time": 35.33,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.7,
-      "features": {
-        "valence": 0.546,
-        "arousal": 0.365,
-        "delta_E": 0.005,
-        "is_spike": false,
-        "ear": 0.238,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.3,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.7
-      }
-    },
-    {
-      "time": 35.94,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.5,
-      "features": {
-        "valence": -0.537,
-        "arousal": 0.338,
-        "delta_E": 0.307,
-        "is_spike": false,
-        "ear": 0.248,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.3,
-        "rush_score": 0.5,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.5
-      }
-    },
-    {
-      "time": 36.51,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.531,
-      "features": {
-        "valence": -0.022,
-        "arousal": 0.012,
-        "delta_E": 0.005,
-        "is_spike": false,
-        "ear": 0.158,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.469,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.531
-      }
-    },
-    {
-      "time": 37.07,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.01,
-        "arousal": 0.015,
-        "delta_E": 0.024,
-        "is_spike": false,
-        "ear": 0.228,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 37.67,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.11,
-        "arousal": 0.19,
-        "delta_E": 0.076,
-        "is_spike": false,
-        "ear": 0.249,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 38.23,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.006,
-        "arousal": 0.009,
-        "delta_E": 0.013,
-        "is_spike": false,
-        "ear": 0.284,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 38.82,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.056,
-        "arousal": 0.053,
-        "delta_E": 0.026,
-        "is_spike": false,
-        "ear": 0.25,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 39.37,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.7,
-      "features": {
-        "valence": 0.802,
-        "arousal": 0.538,
-        "delta_E": 0.005,
-        "is_spike": false,
-        "ear": 0.205,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.3,
-        "rush_score": 0.3,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.7
-      }
-    },
-    {
-      "time": 39.96,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.013,
-        "arousal": 0.014,
-        "delta_E": 0.01,
-        "is_spike": false,
-        "ear": 0.245,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 40.54,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.002,
-        "arousal": 0.003,
+        "valence": -0.8,
+        "arousal": 0.498,
         "delta_E": 0.002,
-        "is_spike": false,
-        "ear": 0.244,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 41.09,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.534,
-      "features": {
-        "valence": 0.009,
-        "arousal": 0.011,
-        "delta_E": 0.005,
-        "is_spike": false,
-        "ear": 0.138,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.466,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.534
-      }
-    },
-    {
-      "time": 41.67,
-      "flag": "FATIGUE",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.583,
-      "features": {
-        "valence": 0.002,
-        "arousal": 0.006,
-        "delta_E": 0.002,
-        "is_spike": false,
-        "ear": 0.218,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.583,
-        "chosen_flag": "FATIGUE",
-        "confidence": 0.583
-      }
-    },
-    {
-      "time": 42.25,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.001,
-        "arousal": 0.005,
-        "delta_E": 0.002,
-        "is_spike": false,
-        "ear": 0.244,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 42.84,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.061,
-        "arousal": 0.041,
-        "delta_E": 0.05,
-        "is_spike": false,
-        "ear": 0.246,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 43.4,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.5,
-      "features": {
-        "valence": 0.584,
-        "arousal": 0.39,
-        "delta_E": 0.947,
-        "is_spike": true,
-        "ear": 0.193,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.4,
-        "rush_score": 0.5,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.5
-      }
-    },
-    {
-      "time": 43.98,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.073,
-        "arousal": 0.062,
-        "delta_E": 0.116,
-        "is_spike": false,
-        "ear": 0.229,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 44.53,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.578,
-      "features": {
-        "valence": 0.035,
-        "arousal": 0.033,
-        "delta_E": 0.041,
-        "is_spike": false,
-        "ear": 0.217,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.422,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.578
-      }
-    },
-    {
-      "time": 45.12,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.006,
-        "arousal": 0.006,
-        "delta_E": 0.02,
-        "is_spike": false,
-        "ear": 0.249,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 45.68,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.033,
-        "arousal": 0.025,
-        "delta_E": 0.006,
-        "is_spike": false,
-        "ear": 0.25,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 46.25,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.009,
-        "arousal": 0.011,
-        "delta_E": 0.002,
-        "is_spike": false,
-        "ear": 0.252,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 46.85,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.054,
-        "arousal": 0.171,
-        "delta_E": 0.173,
-        "is_spike": false,
-        "ear": 0.264,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 47.4,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.5,
-      "features": {
-        "valence": 0.639,
-        "arousal": 0.485,
-        "delta_E": 1.116,
-        "is_spike": true,
-        "ear": 0.25,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.4,
-        "rush_score": 0.5,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.5
-      }
-    },
-    {
-      "time": 48.0,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.006,
-        "arousal": 0.026,
-        "delta_E": 0.077,
-        "is_spike": false,
-        "ear": 0.246,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 48.61,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.001,
-        "arousal": 0.0,
-        "delta_E": 0.005,
-        "is_spike": false,
-        "ear": 0.246,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 49.2,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.553,
-      "features": {
-        "valence": -0.019,
-        "arousal": 0.018,
-        "delta_E": 0.03,
-        "is_spike": false,
-        "ear": 0.214,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.447,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.553
-      }
-    },
-    {
-      "time": 49.78,
-      "flag": "FATIGUE",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.563,
-      "features": {
-        "valence": -0.009,
-        "arousal": 0.007,
-        "delta_E": 0.025,
-        "is_spike": false,
-        "ear": 0.217,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.563,
-        "chosen_flag": "FATIGUE",
-        "confidence": 0.563
-      }
-    },
-    {
-      "time": 50.37,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.008,
-        "arousal": -0.002,
-        "delta_E": 0.004,
-        "is_spike": false,
-        "ear": 0.235,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 50.93,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.027,
-        "arousal": 0.033,
-        "delta_E": 0.186,
-        "is_spike": false,
-        "ear": 0.247,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 51.49,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.045,
-        "arousal": 0.035,
-        "delta_E": 0.093,
-        "is_spike": false,
-        "ear": 0.234,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 52.1,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": -0.002,
-        "arousal": 0.006,
-        "delta_E": 0.01,
-        "is_spike": false,
-        "ear": 0.25,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 52.71,
-      "flag": "STRESS",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.7,
-      "features": {
-        "valence": 0.198,
-        "arousal": 0.553,
-        "delta_E": 0.843,
-        "is_spike": true,
-        "ear": 0.254,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.7,
-        "rush_score": 0.5,
-        "fatigue_score": 0.2,
-        "chosen_flag": "STRESS",
-        "confidence": 0.7
-      }
-    },
-    {
-      "time": 53.32,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.018,
-        "arousal": 0.065,
-        "delta_E": 0.002,
-        "is_spike": false,
-        "ear": 0.267,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 53.92,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.129,
-        "arousal": 0.209,
-        "delta_E": 1.065,
-        "is_spike": true,
-        "ear": 0.285,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.4,
-        "rush_score": 0.2,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 54.51,
-      "flag": "STRESS",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.7,
-      "features": {
-        "valence": 0.46,
-        "arousal": 0.706,
-        "delta_E": 0.695,
-        "is_spike": true,
-        "ear": 0.264,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.7,
-        "rush_score": 0.5,
-        "fatigue_score": 0.2,
-        "chosen_flag": "STRESS",
-        "confidence": 0.7
-      }
-    },
-    {
-      "time": 55.11,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.002,
-        "arousal": 0.006,
-        "delta_E": 0.007,
-        "is_spike": false,
-        "ear": 0.312,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 55.72,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.012,
-        "arousal": 0.008,
-        "delta_E": 0.008,
-        "is_spike": false,
-        "ear": 0.297,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 56.33,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.7,
-      "features": {
-        "valence": 0.556,
-        "arousal": 0.828,
-        "delta_E": 0.025,
-        "is_spike": false,
-        "ear": 0.341,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.3,
-        "rush_score": 0.3,
-        "fatigue_score": 0.2,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.7
-      }
-    },
-    {
-      "time": 56.94,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.013,
-        "arousal": 0.019,
-        "delta_E": 0.0,
-        "is_spike": false,
-        "ear": 0.318,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 57.5,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.0,
-        "arousal": 0.0,
-        "delta_E": 0.001,
         "is_spike": false,
         "ear": 0.294,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
       "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
+        "stress_score": 0.3,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
         "chosen_flag": "NEUTRAL",
+        "confidence": 0.7
+      }
+    },
+    {
+      "time": 59.17,
+      "flag": "STRESS",
+      "stable_flag": "NEUTRAL",
+      "confidence": 0.6,
+      "features": {
+        "valence": -0.798,
+        "arousal": 0.505,
+        "delta_E": 0.003,
+        "is_spike": false,
+        "ear": 0.274,
+        "is_fatigued": false,
+        "flow_magnitude": 0.0
+      },
+      "scores": {
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
         "confidence": 0.6
       }
     },
     {
-      "time": 58.08,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
+      "time": 59.69,
+      "flag": "STRESS",
+      "stable_flag": "STRESS",
       "confidence": 0.6,
       "features": {
-        "valence": 0.011,
-        "arousal": 0.007,
-        "delta_E": 0.007,
+        "valence": -0.798,
+        "arousal": 0.503,
+        "delta_E": 0.0,
         "is_spike": false,
-        "ear": 0.239,
+        "ear": 0.276,
         "is_fatigued": false,
         "flow_magnitude": 0.0
       },
       "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 58.63,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.556,
-      "features": {
-        "valence": 0.095,
-        "arousal": 0.067,
-        "delta_E": 0.009,
-        "is_spike": false,
-        "ear": 0.207,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.444,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.556
-      }
-    },
-    {
-      "time": 59.2,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.037,
-        "arousal": 0.024,
-        "delta_E": 0.05,
-        "is_spike": false,
-        "ear": 0.26,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
-        "confidence": 0.6
-      }
-    },
-    {
-      "time": 59.76,
-      "flag": "NEUTRAL",
-      "stable_flag": "NEUTRAL",
-      "confidence": 0.6,
-      "features": {
-        "valence": 0.105,
-        "arousal": 0.073,
-        "delta_E": 0.112,
-        "is_spike": false,
-        "ear": 0.242,
-        "is_fatigued": false,
-        "flow_magnitude": 0.0
-      },
-      "scores": {
-        "stress_score": 0.0,
-        "rush_score": 0.0,
-        "fatigue_score": 0.4,
-        "chosen_flag": "NEUTRAL",
+        "stress_score": 0.6,
+        "rush_score": 0.3,
+        "fatigue_score": 0.2,
+        "chosen_flag": "STRESS",
         "confidence": 0.6
       }
     }

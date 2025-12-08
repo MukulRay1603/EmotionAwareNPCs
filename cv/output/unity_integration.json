@@ -1,8 +1,113 @@
 {
   "flag_changes": [
     {
-      "time": 2.893183708190918,
+      "time": 1.9947476387023926,
       "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 17.148324966430664,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 19.519590616226196,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 20.258567094802856,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 21.228968620300293,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 21.94539189338684,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 22.664361476898193,
+      "flag": "NEUTRAL",
+      "confidence": 0.6
+    },
+    {
+      "time": 29.76746892929077,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 32.05748176574707,
+      "flag": "NEUTRAL",
+      "confidence": 0.6
+    },
+    {
+      "time": 32.8564658164978,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 35.658339738845825,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 37.26649880409241,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 40.13504385948181,
+      "flag": "NEUTRAL",
+      "confidence": 0.5
+    },
+    {
+      "time": 41.041131019592285,
+      "flag": "STRESS",
+      "confidence": 0.7
+    },
+    {
+      "time": 41.24488425254822,
+      "flag": "NEUTRAL",
+      "confidence": 0.8
+    },
+    {
+      "time": 43.12270140647888,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 48.24633049964905,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 55.09697222709656,
+      "flag": "STRESS",
+      "confidence": 0.7
+    },
+    {
+      "time": 56.004937410354614,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 56.721038579940796,
+      "flag": "STRESS",
+      "confidence": 0.6
+    },
+    {
+      "time": 58.37433314323425,
+      "flag": "NEUTRAL",
+      "confidence": 0.7
+    },
+    {
+      "time": 59.37609100341797,
+      "flag": "STRESS",
       "confidence": 0.6
     }
   ],
@@ -17,12 +122,16 @@
     "decision_window_size": 8
   },
   "summary": {
-    "total_frames": 448,
-    "total_flag_changes": 1,
+    "total_frames": 578,
+    "total_flag_changes": 22,
     "flag_distribution": {
       "NEUTRAL": {
-        "count": 434,
-        "percentage": 100.0
+        "count": 355,
+        "percentage": 65.74
+      },
+      "STRESS": {
+        "count": 185,
+        "percentage": 34.26
       }
     }
   }
