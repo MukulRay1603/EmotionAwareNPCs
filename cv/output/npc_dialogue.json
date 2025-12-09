@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "player_text": "Hello]",
-  "npc_response": "\"Hey, it's great to see you! I'm glad you stopped by.  Let's catch up on everything that's been going on.",
-  "emotion": "surprise",
-  "flag": "PENDING",
-  "confidence": 0.6599999999999999,
-  "valence": 0.4937298394741935,
-  "arousal": 0.692638246686611,
+  "player_text": "I'm lost and clueless",
+  "npc_response": "You seem to be feeling a bit lost, which can be really overwhelming. Is there something specific that's got you feeling this way?",
+  "emotion": "neutral",
+  "flag": "NEUTRAL",
+  "confidence": 0.58,
+  "valence": -0.2118271173024862,
+  "arousal": 0.1687391508980227,
   "is_fatigued": false,
-  "timestamp": 1765185284.471286
+  "timestamp": 1765235893.0875008
 }
