@@ -3,23 +3,18 @@
 ## 🎯 Abstract
 We propose a real-time computer-vision system that senses a player's affect from a webcam and adapts an NPC's dialogue in-game. Beyond a standard Facial Emotion Recognition (FER) network, we add novel modules grounded in core CV concepts: image mapping, layering, filtering, and temporal stacking.
 
-## 🚀 System Overview
-This project implements a complete pipeline from webcam input to NPC dialogue adaptation, featuring:
-- **Continuous Affect Mapping**: Converts categorical FER outputs into 2D valence-arousal space
-- **Temporal Emotion Dynamics**: EMA smoothing and spike detection for emotional buildup
-- **Multi-Signal Fusion**: Combines FER with Eye Aspect Ratio (EAR), head pose, and optical flow
-- **Real-Time Performance**: Target latency ≤400-600ms and 10-15 FPS inference
 
 ## 📁 Repository Structure
 ```
 EmotionAwareNPCs/
-├── cv/                   # Computer vision models and inference
-│   ├── inference/        # Real-time inference scripts
-|   │   ├── modules/      # Modules for real-time connection with unity and LLM
-│   ├── output/           # Face detection and output metrics
-|
-├── .gitignore            # Git ignore rules
-└── README.md             # This file
+├── cv/                                                             # Computer vision models and inference
+│   ├── inference/                                                  # Real-time inference scripts
+|   │   ├── modules/                                                # Modules for real-time connection with unity and LLM
+│   ├── output/                                                     # Face detection and output metrics
+|                                          
+├── .gitignore                                                      # Git ignore rules
+├── Emotion-Aware NPCs for Real-Time Adaptive Dialogue in Games.md  # Complete long report
+└── README.md                                                       # This file
 ```
 
 ## 🚀 Quick Start
@@ -81,8 +76,6 @@ python cv/inference/modules/module_a_unity.py
 
 
 ### 4. Unity Setup
-1. Open Unity Hub
-2. Open project from `unity/` folder
-3. Import required packages (TextMeshPro, Newtonsoft.Json)
-4. Load main scene and press Play
-
+1. Download TestRun3.zip from the link https://drive.google.com/drive/folders/1tXYDaiRDb7n9dPrqzdXDa_mjBzvLyOn8?usp=sharing
+2. Extract the file into the same folder as the github repository cloned
+3. After finishing the CV and FER setup mentioined above run the .exe file inside the extracted folder
