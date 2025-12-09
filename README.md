@@ -58,6 +58,10 @@ Notes
 - Network ports must be available (default: 6000) for Unity ↔ backend communication.
 - Webcams that support low-light correction perform best with the CV pipeline.
 
+---
+
+## SETUP
+
 ### 1. Clone the Repository and install LLama 3.2
 ```bash
 git clone https://github.com/MukulRay1603/EmotionAwareNPCs.git
