@@ -61,11 +61,18 @@ Notes
 
 ## Unity Game & Graphics Factors
 
-- *Advanced Rendering Pipeline:* The Unity build uses URP (unity rendering pipeline UNITY 6.2 LTS) AAA-style graphic settings (FXAA, SMAA, TAA, ambient occlusion, bloom, tone mapping, HDR exposure control, and global illumination), which directly influence image formation, shading, and pixel reconstruction — topics central to computer vision.
-- *Optimized Terrain & Environment:* The world includes high-quality terrain, volumetric clouds, and post-processing effects that create stable lighting and reduce visual noise.
-- *Consistent Illumination for FER:* Lighting, contrast, and exposure were tuned to maintain clear facial visibility for emotion recognition and minimize shading artifacts.
-- *Smooth Animation & Interaction:* Characters (Asterine and Limi) use Mixamo animations, spline-based navigation, NavMesh AI, and real-time UI triggers to ensure responsive gameplay during emotion-driven interactions.
-- *Performance-Aware Design:* All visual settings are scalable, allowing the game to run on mid-range GPUs while still maintaining the fidelity needed for CV stability.
+- *Advanced Rendering Pipeline:*
+  The Unity build uses URP (unity rendering pipeline UNITY 6.2 LTS)
+  AAA-style graphic settings (FXAA, SMAA, TAA, ambient occlusion, bloom, tone mapping, HDR exposure control, and global illumination)
+  which directly influence image formation, shading, and pixel reconstruction and utilize topics central to computer vision.
+- *Optimized Terrain & Environment:*
+  The world includes high-quality terrain, volumetric clouds, and post-processing effects that create stable lighting and reduce visual noise.
+- *Consistent Illumination:*
+  Lighting, contrast, and exposure were tuned to maintain clear global illumination and minimize shading artifacts.
+- *Smooth Animation & Interaction:*
+  Characters (Asterine and Limi) use Mixamo animations, spline-based navigation, NavMesh AI and real-time UI triggers to ensure responsive gameplay during emotion-driven interactions.
+- *Performance-Aware Design:*
+  All visual settings are scalable, allowing the game to run on mid-range GPUs while still maintaining the fidelity needed for CV stability.
 
 
 ---
@@ -83,8 +90,6 @@ ollama pull llama3.2:1b
 #To confirm installation
 ollama list
 ```
-
-
 
 ### 2. CV env setup
 ```bash
