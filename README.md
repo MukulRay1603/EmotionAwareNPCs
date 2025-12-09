@@ -6,6 +6,8 @@
 ## 🎯 Abstract
 This project is real-time computer-vision system that senses a player's affect from a webcam and adapts an NPC's dialogue in-game. Beyond a standard Facial Emotion Recognition (FER) network that works together with an LLM (Ollama), we add novel modules grounded in core CV concepts: image mapping, layering, filtering, and temporal stacking.
 
+*Link to demo video, unity game are at the end of this readme*
+
 
 ## 📁 Repository Structure
 ```
