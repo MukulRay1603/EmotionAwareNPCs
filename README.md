@@ -4,7 +4,7 @@
 
 
 ## 🎯 Abstract
-We propose a real-time computer-vision system that senses a player's affect from a webcam and adapts an NPC's dialogue in-game. Beyond a standard Facial Emotion Recognition (FER) network, we add novel modules grounded in core CV concepts: image mapping, layering, filtering, and temporal stacking.
+This project is real-time computer-vision system that senses a player's affect from a webcam and adapts an NPC's dialogue in-game. Beyond a standard Facial Emotion Recognition (FER) network that works together with an LLM (Ollama), we add novel modules grounded in core CV concepts: image mapping, layering, filtering, and temporal stacking.
 
 
 ## 📁 Repository Structure
@@ -24,7 +24,6 @@ EmotionAwareNPCs/
 
 ### Prerequisites
 - **Python 3.9** with pip
-- **Unity 2022.3 LTS** or higher
 - **Webcam access** for real-time emotion detection
 - **Git** for version control
 
@@ -57,6 +56,17 @@ Notes
 - FER backend does not require GPU acceleration — runs on CPU.
 - Network ports must be available (default: 6000) for Unity ↔ backend communication.
 - Webcams that support low-light correction perform best with the CV pipeline.
+
+---
+
+## Unity Game & Graphics Factors
+
+- *Advanced Rendering Pipeline:* The Unity build uses URP (unity rendering pipeline UNITY 6.2 LTS) AAA-style graphic settings (FXAA, SMAA, TAA, ambient occlusion, bloom, tone mapping, HDR exposure control, and global illumination), which directly influence image formation, shading, and pixel reconstruction — topics central to computer vision.
+- *Optimized Terrain & Environment:* The world includes high-quality terrain, volumetric clouds, and post-processing effects that create stable lighting and reduce visual noise.
+- *Consistent Illumination for FER:* Lighting, contrast, and exposure were tuned to maintain clear facial visibility for emotion recognition and minimize shading artifacts.
+- *Smooth Animation & Interaction:* Characters (Asterine and Limi) use Mixamo animations, spline-based navigation, NavMesh AI, and real-time UI triggers to ensure responsive gameplay during emotion-driven interactions.
+- *Performance-Aware Design:* All visual settings are scalable, allowing the game to run on mid-range GPUs while still maintaining the fidelity needed for CV stability.
+
 
 ---
 
