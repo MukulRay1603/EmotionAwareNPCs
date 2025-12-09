@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "player_text": "I'm lost and clueless",
-  "npc_response": "You seem to be feeling a bit lost, which can be really overwhelming. Is there something specific that's got you feeling this way?",
+  "player_text": "hey, what's up. I'm lost",
+  "npc_response": "\"Acknowledged, it sounds like you might be feeling a bit lost. Would you like to take a moment to relax and unwind, or maybe grab some resources from the nearby market?\"",
   "emotion": "neutral",
   "flag": "NEUTRAL",
-  "confidence": 0.58,
-  "valence": -0.2118271173024862,
-  "arousal": 0.1687391508980227,
+  "confidence": 0.64,
+  "valence": -0.10662891956500235,
+  "arousal": 0.3027930043752042,
   "is_fatigued": false,
-  "timestamp": 1765235893.0875008
+  "timestamp": 1765249215.6979628
 }
