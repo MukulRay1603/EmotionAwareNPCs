@@ -38,8 +38,6 @@ Minimum Specs (Comparable to Genshin Impact Low Settings)
 - Storage: 1 GB free space
 - OS: Windows 10 or later
 
-Additional: Functional webcam (for FER), Python 3.10+ installed
-
 ## Recommended Specs (Tested Development Environment)
 
 - CPU: Intel i9-10900K
@@ -47,8 +45,6 @@ Additional: Functional webcam (for FER), Python 3.10+ installed
 - RAM: 32 GB
 - Storage: SSD recommended for fast loading
 - OS: Windows 10/11
-
-Additional: Stable webcam @ 30 FPS; ability to run multiple terminal modules simultaneously
 
 Notes
 
