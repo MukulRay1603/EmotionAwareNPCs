@@ -28,6 +28,36 @@ EmotionAwareNPCs/
 - **Webcam access** for real-time emotion detection
 - **Git** for version control
 
+### Running the Game
+
+Although the project’s executable is lightweight (< 1 GB) and the game world is optimized, we recommend meeting the following system specifications to ensure stable performance, smooth post-processing, and real-time communication with the CV backend.
+Minimum Specs (Comparable to Genshin Impact Low Settings)
+
+CPU: Intel Core i5 (7th gen) or Ryzen 5
+GPU: NVIDIA GTX 1060 / AMD RX 580
+RAM: 8 GB
+Storage: 1 GB free space
+OS: Windows 10 or later
+
+Additional: Functional webcam (for FER), Python 3.10+ installed
+
+## Recommended Specs (Tested Development Environment)
+
+CPU: Intel i9-10900K
+GPU: NVIDIA RTX 3080
+RAM: 32 GB
+Storage: SSD recommended for fast loading
+OS: Windows 10/11
+
+Additional: Stable webcam @ 30 FPS; ability to run multiple terminal modules simultaneously
+
+Notes
+
+- The Unity game executable is < 1 GB, but smooth gameplay under heavy post-processing (TAA/SMAA, AO, GI, bloom) benefits from a mid-tier GPU.
+- FER backend does not require GPU acceleration — runs on CPU.
+- Network ports must be available (default: 6000) for Unity ↔ backend communication.
+- Webcams that support low-light correction perform best with the CV pipeline.
+
 ### 1. Clone the Repository and install LLama 3.2
 ```bash
 git clone https://github.com/MukulRay1603/EmotionAwareNPCs.git
