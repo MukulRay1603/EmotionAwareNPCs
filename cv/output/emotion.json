@@ -1,0 +1,17 @@
+{
+  "emotion": "neutral",
+  "confidence": 0.973,
+  "timestamp": "2025-10-22T23:00:10.089657",
+  "frame": 369,
+  "all_predictions": {
+    "angry": 0.0,
+    "disgust": 0.0,
+    "fear": 0.002,
+    "happy": 0.023,
+    "sad": 0.002,
+    "surprise": 0.001,
+    "neutral": 0.973
+  },
+  "model": "DeepFace",
+  "fps": 30.2
+}

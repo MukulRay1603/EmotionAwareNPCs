@@ -1,0 +1,11 @@
+{
+  "status": "documented",
+  "model": "DeepFace (VGG-Face backend)",
+  "notes": [
+    "DeepFace is a wrapper around multiple models",
+    "To export to ONNX, need to extract the base model (VGG-Face, etc.)",
+    "Alternative: Use tf2onnx for TensorFlow models",
+    "Command: python -m tf2onnx.convert --saved-model <path> --output model.onnx"
+  ],
+  "recommendation": "Use DeepFace as-is for Phase 1, optimize in Phase 2"
+}

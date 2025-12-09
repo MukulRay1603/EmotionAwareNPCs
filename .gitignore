@@ -207,7 +207,6 @@ crashlytics-build.properties
 
 # Data files
 *.csv
-*.json
 *.jsonl
 *.pkl
 *.pickle

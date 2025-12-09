@@ -1,0 +1,4062 @@
+{
+  "1765251032.7133272": {
+    "timestamp": 1765251032.6254268,
+    "datetime": "2025-12-08T22:30:32.625427",
+    "emotion": "surprise",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": 0.547411474484605,
+    "arousal": 0.6977180917445794,
+    "ear": 0.31386006544825856,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.4089221152108872,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251033.2208245": {
+    "timestamp": 1765251033.150964,
+    "datetime": "2025-12-08T22:30:33.150964",
+    "emotion": "happy",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": 0.7396435173560825,
+    "arousal": 0.5946213834069002,
+    "ear": 0.2658126935349401,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.4341971752861064,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251033.782582": {
+    "timestamp": 1765251033.706066,
+    "datetime": "2025-12-08T22:30:33.706066",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": 0.3304786029721306,
+    "arousal": 0.28489829582075016,
+    "ear": 0.28113370883514516,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.7767811817678555,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.2
+    }
+  },
+  "1765251034.3053691": {
+    "timestamp": 1765251034.232119,
+    "datetime": "2025-12-08T22:30:34.232119",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.057685010604777195,
+    "arousal": 0.008793578218109818,
+    "ear": 0.24904948645526626,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.460705829847607,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251034.819228": {
+    "timestamp": 1765251034.7401292,
+    "datetime": "2025-12-08T22:30:34.740129",
+    "emotion": "happy",
+    "flag": "NEUTRAL",
+    "confidence": 0.5,
+    "valence": 0.4374129805287335,
+    "arousal": 0.31220286298878897,
+    "ear": 0.2869873942702042,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 1.0332944179779753,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251035.8909302": {
+    "timestamp": 1765251035.8162887,
+    "datetime": "2025-12-08T22:30:35.816289",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.12177778579699983,
+    "arousal": -0.025721734191061787,
+    "ear": 0.29452868600340737,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 1.1822355916220606,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251036.411917": {
+    "timestamp": 1765251036.3434834,
+    "datetime": "2025-12-08T22:30:36.343483",
+    "emotion": "angry",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.5199675518814217,
+    "arousal": 0.47725876153679386,
+    "ear": 0.2746219227344784,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.9239970786519487,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251036.9480243": {
+    "timestamp": 1765251036.8707957,
+    "datetime": "2025-12-08T22:30:36.870796",
+    "emotion": "sad",
+    "flag": "PENDING",
+    "confidence": 0.7,
+    "valence": -0.672388934210722,
+    "arousal": -0.12849530155867825,
+    "ear": 0.3047526967381362,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 1.0819513470991646,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251037.4811974": {
+    "timestamp": 1765251037.4026387,
+    "datetime": "2025-12-08T22:30:37.402639",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.6936395640206668,
+    "arousal": -0.37159103592487985,
+    "ear": 0.29785004621481226,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.09438610965522864,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.3,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251038.0484736": {
+    "timestamp": 1765251037.9646738,
+    "datetime": "2025-12-08T22:30:37.964674",
+    "emotion": "surprise",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.1392796340581583,
+    "arousal": 0.13952567370594754,
+    "ear": 0.3425630695641354,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 1.156642694205209,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251038.600925": {
+    "timestamp": 1765251038.5256505,
+    "datetime": "2025-12-08T22:30:38.525651",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.4549320548311192,
+    "arousal": 0.007898988117415996,
+    "ear": 0.33932034167226244,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.7998584014199419,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251039.1299987": {
+    "timestamp": 1765251039.0567744,
+    "datetime": "2025-12-08T22:30:39.056774",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.32332402225292634,
+    "arousal": -0.12200257605328488,
+    "ear": 0.3423141011346974,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.3481379119501788,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251039.659448": {
+    "timestamp": 1765251039.5884993,
+    "datetime": "2025-12-08T22:30:39.588499",
+    "emotion": "fear",
+    "flag": "PENDING",
+    "confidence": 0.7,
+    "valence": -0.5623881957086356,
+    "arousal": 0.3246570100255996,
+    "ear": 0.276430841636054,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.7997764351757031,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251040.1807797": {
+    "timestamp": 1765251040.1138976,
+    "datetime": "2025-12-08T22:30:40.113898",
+    "emotion": "fear",
+    "flag": "PENDING",
+    "confidence": 0.7,
+    "valence": -0.7282115997146903,
+    "arousal": 0.44680675689585825,
+    "ear": 0.3184061304563085,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.13549583604992604,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.3,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251040.7421253": {
+    "timestamp": 1765251040.6723335,
+    "datetime": "2025-12-08T22:30:40.672333",
+    "emotion": "fear",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.7411667904570998,
+    "arousal": 0.45210257458324504,
+    "ear": 0.31575282922312786,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.06905196592367172,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.3,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251041.268468": {
+    "timestamp": 1765251041.2018573,
+    "datetime": "2025-12-08T22:30:41.201857",
+    "emotion": "fear",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.7818923299860591,
+    "arousal": 0.48387951672999074,
+    "ear": 0.3336507821259776,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.06804017189509318,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.3,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251041.7930243": {
+    "timestamp": 1765251041.7301548,
+    "datetime": "2025-12-08T22:30:41.730155",
+    "emotion": "fear",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.79345230552898,
+    "arousal": 0.4905050323191484,
+    "ear": 0.34079791754206085,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.004258604128040905,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.3,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251042.334783": {
+    "timestamp": 1765251042.273371,
+    "datetime": "2025-12-08T22:30:42.273371",
+    "emotion": "fear",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.7976449118359012,
+    "arousal": 0.49675294432709244,
+    "ear": 0.3415416490131873,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.006173487993213527,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.3,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251042.870369": {
+    "timestamp": 1765251042.800084,
+    "datetime": "2025-12-08T22:30:42.800084",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.75583289275057,
+    "arousal": -0.22328760651025362,
+    "ear": 0.32609050221710334,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 1.033140808591772,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251043.3963017": {
+    "timestamp": 1765251043.3293922,
+    "datetime": "2025-12-08T22:30:43.329392",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.704183344126619,
+    "arousal": -0.41221655637854043,
+    "ear": 0.2818733018306372,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.06795519720699857,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.3,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251043.9108737": {
+    "timestamp": 1765251043.844095,
+    "datetime": "2025-12-08T22:30:43.844095",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.22070510158707682,
+    "arousal": -0.12282986171910788,
+    "ear": 0.32320289027800947,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.8314846434346865,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251044.4420378": {
+    "timestamp": 1765251044.3734558,
+    "datetime": "2025-12-08T22:30:44.373456",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.05850171992774458,
+    "arousal": -0.031708790929482644,
+    "ear": 0.2884533767476747,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.025273848530128748,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251045.0015914": {
+    "timestamp": 1765251044.918665,
+    "datetime": "2025-12-08T22:30:44.918665",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.014535483192251862,
+    "arousal": -0.007450485082190837,
+    "ear": 0.2899354586443842,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.008019760922697461,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251045.5043344": {
+    "timestamp": 1765251045.4344969,
+    "datetime": "2025-12-08T22:30:45.434497",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.03110760516147553,
+    "arousal": 0.00022274459681999445,
+    "ear": 0.31548729339405057,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.04252089126953621,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251046.0172863": {
+    "timestamp": 1765251045.9475806,
+    "datetime": "2025-12-08T22:30:45.947581",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.009339141669368556,
+    "arousal": 6.3066244878678e-05,
+    "ear": 0.32352992533200076,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.038361669316675055,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251046.5520208": {
+    "timestamp": 1765251046.487478,
+    "datetime": "2025-12-08T22:30:46.487478",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.0029813006352617244,
+    "arousal": -1.800968790502806e-05,
+    "ear": 0.3427602943999828,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.0002512215617046075,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251047.1077554": {
+    "timestamp": 1765251047.026498,
+    "datetime": "2025-12-08T22:30:47.026498",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.009538758705495577,
+    "arousal": -0.004358624924224019,
+    "ear": 0.30337612856283763,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.013573939267547472,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251047.6311102": {
+    "timestamp": 1765251047.557474,
+    "datetime": "2025-12-08T22:30:47.557474",
+    "emotion": "angry",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.46312287087713455,
+    "arousal": 0.3251096462377339,
+    "ear": 0.21657300369704818,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.7997026181269915,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251048.1447668": {
+    "timestamp": 1765251048.0740135,
+    "datetime": "2025-12-08T22:30:48.074013",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.4216595615448141,
+    "arousal": -0.10639231315117945,
+    "ear": 0.3162992877435996,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.7989572779723256,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251048.655265": {
+    "timestamp": 1765251048.587972,
+    "datetime": "2025-12-08T22:30:48.587972",
+    "emotion": "happy",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": 0.04321219048044814,
+    "arousal": 0.2346922660730413,
+    "ear": 0.24343686594002903,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.9325177079269161,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.2
+    }
+  },
+  "1765251049.1778266": {
+    "timestamp": 1765251049.1147382,
+    "datetime": "2025-12-08T22:30:49.114738",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.3315114514670163,
+    "arousal": -0.01240846456271949,
+    "ear": 0.2598949343873167,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.888113098345488,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251049.7089102": {
+    "timestamp": 1765251049.6443276,
+    "datetime": "2025-12-08T22:30:49.644328",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.1483765552061374,
+    "arousal": -0.027373459563426572,
+    "ear": 0.2587500510746946,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.4305940411726439,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251050.245198": {
+    "timestamp": 1765251050.1720207,
+    "datetime": "2025-12-08T22:30:50.172021",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.14229285516768753,
+    "arousal": -0.06298483152771323,
+    "ear": 0.2464134746398326,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.08275307342934017,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251050.7782419": {
+    "timestamp": 1765251050.71533,
+    "datetime": "2025-12-08T22:30:50.715330",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.1741658374039968,
+    "arousal": -0.10142470010955101,
+    "ear": 0.29985014556114503,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.06236793927029872,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251051.2960408": {
+    "timestamp": 1765251051.2292066,
+    "datetime": "2025-12-08T22:30:51.229207",
+    "emotion": "angry",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.5078515160612733,
+    "arousal": 0.4488065174177369,
+    "ear": 0.3520870412186191,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.9265187153155962,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251051.8162456": {
+    "timestamp": 1765251051.75396,
+    "datetime": "2025-12-08T22:30:51.753960",
+    "emotion": "angry",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.49682737402465255,
+    "arousal": 0.6050490678756387,
+    "ear": 0.34534932544819236,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.15925691764113184,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.6,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251052.371848": {
+    "timestamp": 1765251052.308865,
+    "datetime": "2025-12-08T22:30:52.308865",
+    "emotion": "angry",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.5728710197273508,
+    "arousal": 0.6493651295337198,
+    "ear": 0.34643540929668803,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.11341723772858925,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.6,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251052.9016652": {
+    "timestamp": 1765251052.8356936,
+    "datetime": "2025-12-08T22:30:52.835694",
+    "emotion": "angry",
+    "flag": "PENDING",
+    "confidence": 0.6,
+    "valence": -0.6369733310088348,
+    "arousal": 0.6604453604774543,
+    "ear": 0.3001085927993229,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.05906937957461148,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.6,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251053.4269893": {
+    "timestamp": 1765251053.363174,
+    "datetime": "2025-12-08T22:30:53.363174",
+    "emotion": "angry",
+    "flag": "STRESS",
+    "confidence": 0.6,
+    "valence": -0.6305549775234687,
+    "arousal": 0.6589826537692645,
+    "ear": 0.3165177766560206,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.03727413147185537,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.6,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251053.940219": {
+    "timestamp": 1765251053.8755364,
+    "datetime": "2025-12-08T22:30:53.875536",
+    "emotion": "angry",
+    "flag": "STRESS",
+    "confidence": 0.6,
+    "valence": -0.6622259036533087,
+    "arousal": 0.6195571878441081,
+    "ear": 0.3143295172367126,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.0735218895383006,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.6,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251054.4761255": {
+    "timestamp": 1765251054.4151602,
+    "datetime": "2025-12-08T22:30:54.415160",
+    "emotion": "angry",
+    "flag": "STRESS",
+    "confidence": 1.0,
+    "valence": -0.42209746902004064,
+    "arousal": 0.5745909432659564,
+    "ear": 0.33955217418012634,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.35974242621431113,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 1.0,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251054.9864028": {
+    "timestamp": 1765251054.923775,
+    "datetime": "2025-12-08T22:30:54.923775",
+    "emotion": "angry",
+    "flag": "STRESS",
+    "confidence": 1.0,
+    "valence": -0.6105048416333915,
+    "arousal": 0.6090352839596874,
+    "ear": 0.30628125031188363,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.3783146225182684,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 1.0,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251055.5376036": {
+    "timestamp": 1765251055.4643822,
+    "datetime": "2025-12-08T22:30:55.464382",
+    "emotion": "angry",
+    "flag": "STRESS",
+    "confidence": 0.6,
+    "valence": -0.6732336490383984,
+    "arousal": 0.6586056301627468,
+    "ear": 0.33971997808213045,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.056749853019022085,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.6,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251056.0705733": {
+    "timestamp": 1765251056.0066698,
+    "datetime": "2025-12-08T22:30:56.006670",
+    "emotion": "angry",
+    "flag": "STRESS",
+    "confidence": 0.6,
+    "valence": -0.6919254738932998,
+    "arousal": 0.6311267119032749,
+    "ear": 0.34822723126292837,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.06050030285371956,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.6,
+      "rush": 0.3,
+      "fatigue": 0.2
+    }
+  },
+  "1765251056.5944557": {
+    "timestamp": 1765251056.5331082,
+    "datetime": "2025-12-08T22:30:56.533108",
+    "emotion": "angry",
+    "flag": "STRESS",
+    "confidence": 1.0,
+    "valence": -0.4023609542937999,
+    "arousal": 0.575085370912316,
+    "ear": 0.2733271052709472,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.4271671421634367,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 1.0,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251057.1200137": {
+    "timestamp": 1765251057.043468,
+    "datetime": "2025-12-08T22:30:57.043468",
+    "emotion": "neutral",
+    "flag": "STRESS",
+    "confidence": 0.6,
+    "valence": -0.13960227673412068,
+    "arousal": 0.16112798455500624,
+    "ear": 0.27208972970611167,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.6205020874260235,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251057.6539366": {
+    "timestamp": 1765251057.5865822,
+    "datetime": "2025-12-08T22:30:57.586582",
+    "emotion": "neutral",
+    "flag": "STRESS",
+    "confidence": 0.6,
+    "valence": -0.05108692784250145,
+    "arousal": 0.043472493627781744,
+    "ear": 0.280690121194013,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.01669142798966607,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251058.1797383": {
+    "timestamp": 1765251058.1139987,
+    "datetime": "2025-12-08T22:30:58.113999",
+    "emotion": "sad",
+    "flag": "STRESS",
+    "confidence": 0.7,
+    "valence": -0.46600691567242325,
+    "arousal": -0.06976571393735653,
+    "ear": 0.2387219012425098,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.6404314595402193,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251058.701072": {
+    "timestamp": 1765251058.6390784,
+    "datetime": "2025-12-08T22:30:58.639078",
+    "emotion": "fear",
+    "flag": "STRESS",
+    "confidence": 0.7,
+    "valence": -0.6763779006866247,
+    "arousal": 0.20116903520169396,
+    "ear": 0.28137888544185585,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.45253424006961945,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.2
+    }
+  },
+  "1765251059.2269502": {
+    "timestamp": 1765251059.1629143,
+    "datetime": "2025-12-08T22:30:59.162914",
+    "emotion": "happy",
+    "flag": "STRESS",
+    "confidence": 0.5,
+    "valence": 0.373299940634526,
+    "arousal": 0.44445143195523773,
+    "ear": 0.284396878574788,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 1.6064565531275532,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251060.2935402": {
+    "timestamp": 1765251060.229305,
+    "datetime": "2025-12-08T22:31:00.229305",
+    "emotion": "disgust",
+    "flag": "PENDING",
+    "confidence": 0.6,
+    "valence": -0.3674281306669864,
+    "arousal": -0.024761123124004913,
+    "ear": 0.24800296446858067,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 1.69533308192357,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251061.5099397": {
+    "timestamp": 1765251061.2644727,
+    "datetime": "2025-12-08T22:31:01.264473",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.20093639784837897,
+    "arousal": 0.017068623194547224,
+    "ear": 0.20212018335790521,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.6135144242891788,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251061.8785293": {
+    "timestamp": 1765251061.809719,
+    "datetime": "2025-12-08T22:31:01.809719",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.14557778380239608,
+    "arousal": 0.15515714357432403,
+    "ear": 0.27335450109992177,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.17950879818051424,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251062.3881493": {
+    "timestamp": 1765251062.3228703,
+    "datetime": "2025-12-08T22:31:02.322870",
+    "emotion": "fear",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.5712314738880545,
+    "arousal": 0.20873095057546728,
+    "ear": 0.17953864319824375,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.6320400892237014,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.2
+    }
+  },
+  "1765251062.9341788": {
+    "timestamp": 1765251062.865793,
+    "datetime": "2025-12-08T22:31:02.865793",
+    "emotion": "fear",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.7031834437098056,
+    "arousal": 0.1418623329449648,
+    "ear": 0.2910095273076433,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.11864268076763931,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.3,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251063.4569316": {
+    "timestamp": 1765251063.3916802,
+    "datetime": "2025-12-08T22:31:03.391680",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.3354408282690115,
+    "arousal": 0.022266703144092154,
+    "ear": 0.29766081730793725,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.5990187431987334,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251063.981987": {
+    "timestamp": 1765251063.917391,
+    "datetime": "2025-12-08T22:31:03.917391",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.25260784754738524,
+    "arousal": 0.006531580545333538,
+    "ear": 0.27152158351562117,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.04868584389650832,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251064.493501": {
+    "timestamp": 1765251064.4271412,
+    "datetime": "2025-12-08T22:31:04.427141",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.5091981535027891,
+    "arousal": -0.0790400049419214,
+    "ear": 0.19808517317850274,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.41831898372257625,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251065.050201": {
+    "timestamp": 1765251064.9833272,
+    "datetime": "2025-12-08T22:31:04.983327",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.15757581028517065,
+    "arousal": -0.025657798218224285,
+    "ear": 0.29236181756579305,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.6226129278475008,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251065.5592103": {
+    "timestamp": 1765251065.4930892,
+    "datetime": "2025-12-08T22:31:05.493089",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.06356449890969976,
+    "arousal": -0.009530692724012302,
+    "ear": 0.2710231350481644,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.016394203534819397,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251066.0890543": {
+    "timestamp": 1765251066.020908,
+    "datetime": "2025-12-08T22:31:06.020908",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.3669390583649078,
+    "arousal": 0.022105019846790364,
+    "ear": 0.18379643316987052,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.47522722636249637,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251066.6188486": {
+    "timestamp": 1765251066.5504513,
+    "datetime": "2025-12-08T22:31:06.550451",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.14293027994386728,
+    "arousal": -0.0010727532895672713,
+    "ear": 0.2535961552149829,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.4524435980775947,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251067.1663861": {
+    "timestamp": 1765251067.093333,
+    "datetime": "2025-12-08T22:31:07.093333",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.050603332318554156,
+    "arousal": -0.001862034874736589,
+    "ear": 0.2511600022126981,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.03695630833817673,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251068.2155395": {
+    "timestamp": 1765251068.1504633,
+    "datetime": "2025-12-08T22:31:08.150463",
+    "emotion": "fear",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.5716997270526424,
+    "arousal": 0.19113265764498236,
+    "ear": 0.24259818947943032,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.8311705342178252,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251069.2612543": {
+    "timestamp": 1765251069.1897726,
+    "datetime": "2025-12-08T22:31:09.189773",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.17251020875063727,
+    "arousal": 0.05705511337608703,
+    "ear": 0.2846469742744188,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.839649464875433,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251070.3254313": {
+    "timestamp": 1765251070.2585487,
+    "datetime": "2025-12-08T22:31:10.258549",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.6072310536826556,
+    "arousal": -0.37388964333623953,
+    "ear": 0.1713637129781094,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.969018865989573,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251071.3885162": {
+    "timestamp": 1765251071.3097477,
+    "datetime": "2025-12-08T22:31:11.309748",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.7175693677420583,
+    "arousal": -0.21183605852391796,
+    "ear": 0.1906985249948986,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.350399653116862,
+    "is_spike": true,
+    "delta_E": 0.41718291909159816,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.6102397918701172
+    }
+  },
+  "1765251071.8887584": {
+    "timestamp": 1765251071.8221085,
+    "datetime": "2025-12-08T22:31:11.822109",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.21918275511936408,
+    "arousal": -0.06494796969087799,
+    "ear": 0.2527591230823055,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.7721385573139298,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251072.4159198": {
+    "timestamp": 1765251072.3499622,
+    "datetime": "2025-12-08T22:31:12.349962",
+    "emotion": "happy",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": 0.24437705127198922,
+    "arousal": 0.2145739313128169,
+    "ear": 0.1618743054798208,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.5607262108272207,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.2
+    }
+  },
+  "1765251072.9424806": {
+    "timestamp": 1765251072.876954,
+    "datetime": "2025-12-08T22:31:12.876954",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": 0.11197442018765624,
+    "arousal": 0.17175350829840758,
+    "ear": 0.24751364213583454,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.42795987948841563,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251073.470231": {
+    "timestamp": 1765251073.402433,
+    "datetime": "2025-12-08T22:31:13.402433",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.21218005200569579,
+    "arousal": 0.23212052872690608,
+    "ear": 0.18533663383147425,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.419578712160772,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.2
+    }
+  },
+  "1765251074.0250998": {
+    "timestamp": 1765251073.9587831,
+    "datetime": "2025-12-08T22:31:13.958783",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.8,
+    "valence": -0.214012537625889,
+    "arousal": 0.23568043754347295,
+    "ear": 0.3140254098749796,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.13788128704796793,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.2
+    }
+  },
+  "1765251074.5401103": {
+    "timestamp": 1765251074.467994,
+    "datetime": "2025-12-08T22:31:14.467994",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.23092159636778353,
+    "arousal": 0.18243778769559427,
+    "ear": 0.2236846208826267,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.08102998738461084,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251075.0769496": {
+    "timestamp": 1765251075.0101602,
+    "datetime": "2025-12-08T22:31:15.010160",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.1959432226043939,
+    "arousal": 0.1477068600930493,
+    "ear": 0.28254902225668393,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.06318029694248889,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251075.5876236": {
+    "timestamp": 1765251075.5199265,
+    "datetime": "2025-12-08T22:31:15.519927",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.17673786656151577,
+    "arousal": 0.09565773890700908,
+    "ear": 0.18884146909118182,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.06075947972895815,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251076.1114447": {
+    "timestamp": 1765251076.0433037,
+    "datetime": "2025-12-08T22:31:16.043304",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.5118960611396167,
+    "arousal": -0.1256852092596726,
+    "ear": 0.26369112589462473,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.5688341247322486,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251076.6192186": {
+    "timestamp": 1765251076.5522537,
+    "datetime": "2025-12-08T22:31:16.552254",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.3836947532294224,
+    "arousal": 0.08150979279838705,
+    "ear": 0.2732827733801779,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.5094651088130348,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251077.1740487": {
+    "timestamp": 1765251077.1092153,
+    "datetime": "2025-12-08T22:31:17.109215",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.18548572570963306,
+    "arousal": 0.07036584905942508,
+    "ear": 0.32085503662786286,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.2510909859477463,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251077.7050316": {
+    "timestamp": 1765251077.6366572,
+    "datetime": "2025-12-08T22:31:17.636657",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.3248248088820622,
+    "arousal": 0.1906114743392894,
+    "ear": 0.2444115120370707,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.3344088473992036,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251078.2424257": {
+    "timestamp": 1765251078.178877,
+    "datetime": "2025-12-08T22:31:18.178877",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.2449873045895024,
+    "arousal": 0.1418513676049027,
+    "ear": 0.2548022602120689,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.21185706940366722,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251078.769475": {
+    "timestamp": 1765251078.7023554,
+    "datetime": "2025-12-08T22:31:18.702355",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.12233695531835342,
+    "arousal": 0.09883128941156018,
+    "ear": 0.16766935898288998,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.1467165824595879,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251079.3022287": {
+    "timestamp": 1765251079.2324853,
+    "datetime": "2025-12-08T22:31:19.232485",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.23759027317241382,
+    "arousal": 0.1577737646689213,
+    "ear": 0.24234350314350353,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.24024192565831035,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251079.8076992": {
+    "timestamp": 1765251079.739709,
+    "datetime": "2025-12-08T22:31:19.739709",
+    "emotion": "fear",
+    "flag": "NEUTRAL",
+    "confidence": 0.8,
+    "valence": -0.3764910433574037,
+    "arousal": 0.23257892659538076,
+    "ear": 0.2678016259559812,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.16991372021444745,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.2
+    }
+  },
+  "1765251080.345409": {
+    "timestamp": 1765251080.2809517,
+    "datetime": "2025-12-08T22:31:20.280952",
+    "emotion": "fear",
+    "flag": "NEUTRAL",
+    "confidence": 0.8,
+    "valence": -0.3794522034835746,
+    "arousal": 0.2565688430238011,
+    "ear": 0.29245663208986034,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.05534289429919842,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.2
+    }
+  },
+  "1765251080.8844995": {
+    "timestamp": 1765251080.8227963,
+    "datetime": "2025-12-08T22:31:20.822796",
+    "emotion": "fear",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.6397017853355162,
+    "arousal": 0.27899974389173604,
+    "ear": 0.27407116115552127,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.3711546300373368,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.2
+    }
+  },
+  "1765251081.416227": {
+    "timestamp": 1765251081.3491352,
+    "datetime": "2025-12-08T22:31:21.349135",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.341028978133727,
+    "arousal": 0.18194263621284967,
+    "ear": 0.2822332233710434,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.5582597375797987,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251081.9247608": {
+    "timestamp": 1765251081.858222,
+    "datetime": "2025-12-08T22:31:21.858222",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.2263895146948744,
+    "arousal": 0.12982616419779708,
+    "ear": 0.2534212438533447,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.04856832146440389,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251082.4678442": {
+    "timestamp": 1765251082.3999777,
+    "datetime": "2025-12-08T22:31:22.399978",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.13307377842697204,
+    "arousal": -0.0008490003946756211,
+    "ear": 0.2636012660900581,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.18464681438493127,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251082.978068": {
+    "timestamp": 1765251082.9095197,
+    "datetime": "2025-12-08T22:31:22.909520",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.05994347511276796,
+    "arousal": -0.008130851771965535,
+    "ear": 0.28218945884445035,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.07897496067247659,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251083.5210555": {
+    "timestamp": 1765251083.4524722,
+    "datetime": "2025-12-08T22:31:23.452472",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": 0.027838120521437675,
+    "arousal": 0.028610723242030428,
+    "ear": 0.25841357112492475,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.10926917752845595,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251084.0603337": {
+    "timestamp": 1765251083.9909253,
+    "datetime": "2025-12-08T22:31:23.990925",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.06132651170677389,
+    "arousal": 0.01866238594487775,
+    "ear": 0.11279607942697789,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.1676963940729371,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251084.5862138": {
+    "timestamp": 1765251084.5176773,
+    "datetime": "2025-12-08T22:31:24.517677",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.08102551635035277,
+    "arousal": -0.004059176621656157,
+    "ear": 0.2442189446148043,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.029940741501523056,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251085.1017332": {
+    "timestamp": 1765251085.0287716,
+    "datetime": "2025-12-08T22:31:25.028772",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.047243440932735636,
+    "arousal": -0.008440125572406181,
+    "ear": 0.2644285439281638,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.056809184784473374,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251085.6222415": {
+    "timestamp": 1765251085.5545928,
+    "datetime": "2025-12-08T22:31:25.554593",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.027457333846018315,
+    "arousal": -0.007386380562860891,
+    "ear": 0.26234544474343735,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.01419677434939768,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251086.165579": {
+    "timestamp": 1765251086.0947697,
+    "datetime": "2025-12-08T22:31:26.094770",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.015516187955872916,
+    "arousal": -0.0021495004006075904,
+    "ear": 0.27816002333994655,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.01109123937302567,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251086.688902": {
+    "timestamp": 1765251086.6213815,
+    "datetime": "2025-12-08T22:31:26.621382",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.06125454669341157,
+    "arousal": -0.02651057977194491,
+    "ear": 0.27255632200487945,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.0796037092498201,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251087.1948717": {
+    "timestamp": 1765251087.1305578,
+    "datetime": "2025-12-08T22:31:27.130558",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.08167494151145827,
+    "arousal": -0.018256576898108723,
+    "ear": 0.2704063555668653,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.02420411086408725,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251087.7264466": {
+    "timestamp": 1765251087.6586587,
+    "datetime": "2025-12-08T22:31:27.658659",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.047924560505574094,
+    "arousal": -0.003800303362545194,
+    "ear": 0.24465169273683668,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.05948173016968189,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251088.262153": {
+    "timestamp": 1765251088.186327,
+    "datetime": "2025-12-08T22:31:28.186327",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.0481642087310774,
+    "arousal": -0.014210021061661249,
+    "ear": 0.26691924528009897,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.025749599034800324,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251088.8114333": {
+    "timestamp": 1765251088.7447762,
+    "datetime": "2025-12-08T22:31:28.744776",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.022910709971638382,
+    "arousal": -0.004717743435990814,
+    "ear": 0.17006839041263316,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.04041919716922346,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251089.3369992": {
+    "timestamp": 1765251089.2698576,
+    "datetime": "2025-12-08T22:31:29.269858",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.494983720779419,
+    "valence": -0.0694130907895664,
+    "arousal": -0.014583823824351935,
+    "ear": 0.19991953481438618,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.17502713203430176,
+    "is_spike": false,
+    "delta_E": 0.07936117935327136,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.505016279220581
+    }
+  },
+  "1765251089.845072": {
+    "timestamp": 1765251089.7790766,
+    "datetime": "2025-12-08T22:31:29.779077",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6068600654602051,
+    "valence": -0.030490537957179938,
+    "arousal": 0.0009515535875075495,
+    "ear": 0.1456473234129031,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.3447667757670085,
+    "is_spike": false,
+    "delta_E": 0.08002110501014134,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.6068600654602051
+    }
+  },
+  "1765251090.3881507": {
+    "timestamp": 1765251090.3197875,
+    "datetime": "2025-12-08T22:31:30.319788",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.7150022506713867,
+    "valence": -0.10928070417423391,
+    "arousal": -0.03533172501533503,
+    "ear": 0.16469994092271545,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.5250037511189779,
+    "is_spike": false,
+    "delta_E": 0.14185842378550972,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.7150022506713867
+    }
+  },
+  "1765251090.9440277": {
+    "timestamp": 1765251090.8757112,
+    "datetime": "2025-12-08T22:31:30.875711",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.1381910004824893,
+    "arousal": -0.035122733453248206,
+    "ear": 0.24452220241401348,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.01754780133458449,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251091.472186": {
+    "timestamp": 1765251091.4036736,
+    "datetime": "2025-12-08T22:31:31.403674",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": 0.008790879024510916,
+    "arousal": 0.04477180547016431,
+    "ear": 0.2523093264996704,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.24990443927713038,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251092.0136704": {
+    "timestamp": 1765251091.94578,
+    "datetime": "2025-12-08T22:31:31.945780",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.009267326767243796,
+    "arousal": 0.014408653853559314,
+    "ear": 0.23184270152276937,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.11793183876392534,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251092.525721": {
+    "timestamp": 1765251092.4558847,
+    "datetime": "2025-12-08T22:31:32.455885",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.03828323396979412,
+    "arousal": -0.0072944394072861725,
+    "ear": 0.28071639722566877,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.038212595064497784,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251093.0671694": {
+    "timestamp": 1765251092.999444,
+    "datetime": "2025-12-08T22:31:32.999444",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.10235993142783517,
+    "arousal": -0.010770410634250493,
+    "ear": 0.27762706507139,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.07922148071934738,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251093.6289527": {
+    "timestamp": 1765251093.5584645,
+    "datetime": "2025-12-08T22:31:33.558465",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.031833667927078424,
+    "arousal": 0.02364205780876163,
+    "ear": 0.16938027477925088,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.13785534717781625,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251094.146117": {
+    "timestamp": 1765251094.07243,
+    "datetime": "2025-12-08T22:31:34.072430",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.014253137508760689,
+    "arousal": 0.004551608038215655,
+    "ear": 0.25073263277606916,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.04232990004283344,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251095.2044196": {
+    "timestamp": 1765251095.1300533,
+    "datetime": "2025-12-08T22:31:35.130053",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": 0.035805870356919706,
+    "arousal": 0.029979180068639248,
+    "ear": 0.25121250335024203,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.07793637439713688,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251096.2531247": {
+    "timestamp": 1765251096.1833339,
+    "datetime": "2025-12-08T22:31:36.183334",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.15104534327977323,
+    "arousal": -0.09562830666373696,
+    "ear": 0.27516932218385515,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.34553367934844387,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251096.7947648": {
+    "timestamp": 1765251096.7245288,
+    "datetime": "2025-12-08T22:31:36.724529",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.061001632527391804,
+    "arousal": -0.03569121660150705,
+    "ear": 0.15154281302602032,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.2510161977340188,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251097.3487585": {
+    "timestamp": 1765251097.2832737,
+    "datetime": "2025-12-08T22:31:37.283274",
+    "emotion": "disgust",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.4677410922461019,
+    "arousal": 0.10693766485029421,
+    "ear": 0.2799375135974394,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.644724838033884,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251097.8703895": {
+    "timestamp": 1765251097.8068726,
+    "datetime": "2025-12-08T22:31:37.806873",
+    "emotion": "angry",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.5949666697488897,
+    "arousal": 0.48425560063393586,
+    "ear": 0.10601113427565066,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.4779567743549634,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251098.4432368": {
+    "timestamp": 1765251098.367509,
+    "datetime": "2025-12-08T22:31:38.367509",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.1820309902711005,
+    "arousal": 0.1430109747496829,
+    "ear": 0.24738280348723607,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.9147431383182949,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251099.0055676": {
+    "timestamp": 1765251098.9252353,
+    "datetime": "2025-12-08T22:31:38.925235",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.062515672181076,
+    "arousal": 0.03748073211711236,
+    "ear": 0.2838247351209957,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.007696053246185982,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251099.5541322": {
+    "timestamp": 1765251099.482229,
+    "datetime": "2025-12-08T22:31:39.482229",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.03849189821056628,
+    "arousal": 0.0050179775226799955,
+    "ear": 0.2801701228176774,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.016940125097643557,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251100.0802405": {
+    "timestamp": 1765251100.0093515,
+    "datetime": "2025-12-08T22:31:40.009351",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.01271525062355482,
+    "arousal": 0.0011108937827076027,
+    "ear": 0.2698536938560102,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.027805304303721908,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251100.6079977": {
+    "timestamp": 1765251100.5344965,
+    "datetime": "2025-12-08T22:31:40.534497",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.011485895330909353,
+    "arousal": -0.003513350815190029,
+    "ear": 0.3064242721794413,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.010518637385862856,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251101.1461763": {
+    "timestamp": 1765251101.0762064,
+    "datetime": "2025-12-08T22:31:41.076206",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.08972927600046375,
+    "arousal": -0.047961707174205157,
+    "ear": 0.2945329791458472,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.12804760636356052,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251101.6569498": {
+    "timestamp": 1765251101.5905898,
+    "datetime": "2025-12-08T22:31:41.590590",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.04997026250685122,
+    "arousal": -0.021115842014607013,
+    "ear": 0.25318560728696154,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.10702614238932105,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251102.2016692": {
+    "timestamp": 1765251102.1327236,
+    "datetime": "2025-12-08T22:31:42.132724",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.02243277716942535,
+    "arousal": -0.009798693089462877,
+    "ear": 0.28506487548627596,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.022781794652960763,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251102.7592728": {
+    "timestamp": 1765251102.6896942,
+    "datetime": "2025-12-08T22:31:42.689694",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.008699448578624678,
+    "arousal": -0.0037271411458672174,
+    "ear": 0.26908764987636913,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.008702198654685783,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251103.2832882": {
+    "timestamp": 1765251103.2136374,
+    "datetime": "2025-12-08T22:31:43.213637",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.00298446419870705,
+    "arousal": -0.0012834012735102737,
+    "ear": 0.3035631275787776,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.0024458231792510747,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251103.812119": {
+    "timestamp": 1765251103.741056,
+    "datetime": "2025-12-08T22:31:43.741056",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.018589430488302094,
+    "arousal": -0.0039579549915554285,
+    "ear": 0.2832202314255844,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.025216450889470256,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251104.3659835": {
+    "timestamp": 1765251104.2982237,
+    "datetime": "2025-12-08T22:31:44.298224",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.01129700369742585,
+    "arousal": -0.004049916239273242,
+    "ear": 0.3075878257698386,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.017135674428695343,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251104.8918176": {
+    "timestamp": 1765251104.8231604,
+    "datetime": "2025-12-08T22:31:44.823160",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.003471392919006412,
+    "arousal": -0.0012616255564198763,
+    "ear": 0.2940995151114845,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.009002822308908493,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251105.3992467": {
+    "timestamp": 1765251105.3317769,
+    "datetime": "2025-12-08T22:31:45.331777",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.00503265123320277,
+    "arousal": -6.924818263157615e-05,
+    "ear": 0.19565718745682548,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.005607298785066021,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251105.9567714": {
+    "timestamp": 1765251105.8879926,
+    "datetime": "2025-12-08T22:31:45.887993",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.010767838238768257,
+    "arousal": 0.001369972366697095,
+    "ear": 0.2934837673666575,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.007681005002906418,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251106.4824104": {
+    "timestamp": 1765251106.4130752,
+    "datetime": "2025-12-08T22:31:46.413075",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.003449560280294189,
+    "arousal": 0.0003503448776093609,
+    "ear": 0.3086565887170728,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.013078028365518149,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251107.0071263": {
+    "timestamp": 1765251106.936247,
+    "datetime": "2025-12-08T22:31:46.936247",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.0019956814425807047,
+    "arousal": -0.0005090221894864851,
+    "ear": 0.29357938252943727,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.0013219621416391601,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251107.53709": {
+    "timestamp": 1765251107.4643297,
+    "datetime": "2025-12-08T22:31:47.464330",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.0011787876396299676,
+    "arousal": -0.00047691738372685,
+    "ear": 0.309223572068421,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.0006836369018027526,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251108.056503": {
+    "timestamp": 1765251107.991364,
+    "datetime": "2025-12-08T22:31:47.991364",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.0230551975387972,
+    "arousal": -0.0047950798428027025,
+    "ear": 0.1865912569284795,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.03220120389194362,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251108.5986867": {
+    "timestamp": 1765251108.5212388,
+    "datetime": "2025-12-08T22:31:48.521239",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.08004763135963523,
+    "arousal": -0.01604042688512488,
+    "ear": 0.2731933105326003,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.07343101776013669,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251109.1105072": {
+    "timestamp": 1765251109.048644,
+    "datetime": "2025-12-08T22:31:49.048644",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.26333298589200405,
+    "arousal": -0.03956174704315292,
+    "ear": 0.2941617129447428,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.2391492444997157,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251109.627558": {
+    "timestamp": 1765251109.5578845,
+    "datetime": "2025-12-08T22:31:49.557884",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.39766156083295556,
+    "arousal": 0.013020225346279389,
+    "ear": 0.2276450439215597,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.14179635910449204,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251110.15473": {
+    "timestamp": 1765251110.0853043,
+    "datetime": "2025-12-08T22:31:50.085304",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.39184703259868825,
+    "arousal": -0.04081902671404748,
+    "ear": 0.2995348206222882,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.11928789821033559,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251110.7103434": {
+    "timestamp": 1765251110.643483,
+    "datetime": "2025-12-08T22:31:50.643483",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.13013069420122822,
+    "arousal": -0.015059522126145359,
+    "ear": 0.2991860765575798,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.3761838069938897,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251111.238418": {
+    "timestamp": 1765251111.1678,
+    "datetime": "2025-12-08T22:31:51.167800",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.045484024712482335,
+    "arousal": -0.00658702961275935,
+    "ear": 0.3000707957816159,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.008824024355483136,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251111.7699578": {
+    "timestamp": 1765251111.695162,
+    "datetime": "2025-12-08T22:31:51.695162",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.09768821855722593,
+    "arousal": -0.03657749837307478,
+    "ear": 0.2068368381299261,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.12020242221993765,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251112.3282382": {
+    "timestamp": 1765251112.255077,
+    "datetime": "2025-12-08T22:31:52.255077",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.05296654270423453,
+    "arousal": -0.01748612775608288,
+    "ear": 0.3025299706196518,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.0951375286280111,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251112.845933": {
+    "timestamp": 1765251112.7810524,
+    "datetime": "2025-12-08T22:31:52.781052",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.027960452737907246,
+    "arousal": -0.006841184655248488,
+    "ear": 0.30552020414874403,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.017985291714680145,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251113.3756309": {
+    "timestamp": 1765251113.3084223,
+    "datetime": "2025-12-08T22:31:53.308422",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.008472756307108267,
+    "arousal": -0.001884039170785851,
+    "ear": 0.25732639130318236,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.017307045389705518,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251113.9066203": {
+    "timestamp": 1765251113.8361127,
+    "datetime": "2025-12-08T22:31:53.836113",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.07124957773790151,
+    "arousal": -0.011553494171067168,
+    "ear": 0.13863532387961913,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.09932017607213066,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251114.4357214": {
+    "timestamp": 1765251114.363903,
+    "datetime": "2025-12-08T22:31:54.363903",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.53041015001732,
+    "arousal": -0.24146260488081603,
+    "ear": 0.25256537681896984,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.7077141798560848,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251114.990278": {
+    "timestamp": 1765251114.921387,
+    "datetime": "2025-12-08T22:31:54.921387",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.30197323880726534,
+    "arousal": -0.0693528977929466,
+    "ear": 0.260463175263992,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.6263145489246286,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251115.5524375": {
+    "timestamp": 1765251115.483007,
+    "datetime": "2025-12-08T22:31:55.483007",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.10339400289382228,
+    "arousal": -0.02608068688690661,
+    "ear": 0.280266597624824,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.1861666244427379,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251116.1109884": {
+    "timestamp": 1765251116.040289,
+    "datetime": "2025-12-08T22:31:56.040289",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.07006081480051976,
+    "arousal": -0.031760431541026854,
+    "ear": 0.28576729698426884,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.04599947482402726,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251116.6439035": {
+    "timestamp": 1765251116.5694947,
+    "datetime": "2025-12-08T22:31:56.569495",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.032318223715725285,
+    "arousal": -0.01475781910200332,
+    "ear": 0.3047339030567604,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.047800355661232086,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251117.1731029": {
+    "timestamp": 1765251117.096875,
+    "datetime": "2025-12-08T22:31:57.096875",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.027002551998151665,
+    "arousal": -0.015839496596390175,
+    "ear": 0.21947804824065034,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.01231459600174164,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251117.7317066": {
+    "timestamp": 1765251117.6580806,
+    "datetime": "2025-12-08T22:31:57.658081",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.09282687880151252,
+    "arousal": -0.03924883041701317,
+    "ear": 0.25677096854085535,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.10180247763695115,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251118.2404943": {
+    "timestamp": 1765251118.1715894,
+    "datetime": "2025-12-08T22:31:58.171589",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.06386958601092471,
+    "arousal": -0.03176884200703799,
+    "ear": 0.27078113370838963,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.07259712767660821,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251118.7673423": {
+    "timestamp": 1765251118.6995187,
+    "datetime": "2025-12-08T22:31:58.699519",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.059979832805962675,
+    "arousal": -0.025096152413785024,
+    "ear": 0.2731420291442386,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.009327236981883098,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251119.2902434": {
+    "timestamp": 1765251119.2277079,
+    "datetime": "2025-12-08T22:31:59.227708",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.12145790354160446,
+    "arousal": -0.06384788196047211,
+    "ear": 0.2777544210725103,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.10676357957215954,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251119.8185573": {
+    "timestamp": 1765251119.756699,
+    "datetime": "2025-12-08T22:31:59.756699",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.05170074545304276,
+    "arousal": -0.020737121007135335,
+    "ear": 0.2731004346625451,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.148292337580754,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251125.6633039": {
+    "timestamp": 1765251125.59868,
+    "datetime": "2025-12-08T22:32:05.598680",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": 0.05085262750597274,
+    "arousal": 0.03803539478441385,
+    "ear": 0.3138120868542136,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.1337381005478367,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251127.770858": {
+    "timestamp": 1765251127.7086644,
+    "datetime": "2025-12-08T22:32:07.708664",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.2640118959625406,
+    "arousal": 0.25721508470117294,
+    "ear": 0.3211920813952337,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.5715750475581913,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.2
+    }
+  },
+  "1765251128.298811": {
+    "timestamp": 1765251128.2370603,
+    "datetime": "2025-12-08T22:32:08.237060",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.11055503731639924,
+    "arousal": 0.10661198233813055,
+    "ear": 0.2844691851613971,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.47006904722978954,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251128.8781786": {
+    "timestamp": 1765251128.8138895,
+    "datetime": "2025-12-08T22:32:08.813890",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.034033480007938946,
+    "arousal": 0.03211345168626305,
+    "ear": 0.3023024492371085,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.060420742303799964,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251129.4009566": {
+    "timestamp": 1765251129.3410134,
+    "datetime": "2025-12-08T22:32:09.341013",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.01761897264697006,
+    "arousal": 0.007868400707082888,
+    "ear": 0.2989207071545782,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.009730042634681805,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251129.923725": {
+    "timestamp": 1765251129.8667789,
+    "datetime": "2025-12-08T22:32:09.866779",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.011833659271589783,
+    "arousal": 0.005942513235033269,
+    "ear": 0.05985365818945076,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.0077378446414562655,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251130.4528291": {
+    "timestamp": 1765251130.3964317,
+    "datetime": "2025-12-08T22:32:10.396432",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.011751175462016962,
+    "arousal": 0.00348084819199889,
+    "ear": 0.22735593259925507,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.0035805164481520838,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251130.9830942": {
+    "timestamp": 1765251130.9246778,
+    "datetime": "2025-12-08T22:32:10.924678",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.10427945934469782,
+    "arousal": 0.10660104693339087,
+    "ear": 0.3009981887751816,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.1987342209620525,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251131.5061321": {
+    "timestamp": 1765251131.4502273,
+    "datetime": "2025-12-08T22:32:11.450227",
+    "emotion": "fear",
+    "flag": "NEUTRAL",
+    "confidence": 0.5,
+    "valence": -0.29701733734849545,
+    "arousal": 0.4559284985904158,
+    "ear": 0.32138034936632576,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.5122803732158387,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251132.0416288": {
+    "timestamp": 1765251131.9828331,
+    "datetime": "2025-12-08T22:32:11.982833",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.10107900801729688,
+    "arousal": 0.13302255226874668,
+    "ear": 0.29431364714804986,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.7104537911712135,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251132.5709858": {
+    "timestamp": 1765251132.5064454,
+    "datetime": "2025-12-08T22:32:12.506445",
+    "emotion": "happy",
+    "flag": "NEUTRAL",
+    "confidence": 0.5,
+    "valence": 0.5887566660663798,
+    "arousal": 0.46053940405854477,
+    "ear": 0.24346517392549077,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 1.0864049365734298,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251134.1557555": {
+    "timestamp": 1765251134.0923834,
+    "datetime": "2025-12-08T22:32:14.092383",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": 0.1765956303099046,
+    "arousal": 0.1381723456372696,
+    "ear": 0.28179380465449905,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 1.0692571394762411,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251134.6791809": {
+    "timestamp": 1765251134.62029,
+    "datetime": "2025-12-08T22:32:14.620290",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": 0.050255691313115386,
+    "arousal": 0.04244271382657803,
+    "ear": 0.29956354323803935,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.004092355985700369,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251135.2072525": {
+    "timestamp": 1765251135.1480799,
+    "datetime": "2025-12-08T22:32:15.148080",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": 0.003078243518140537,
+    "arousal": 0.0230986847401339,
+    "ear": 0.27006878195661843,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.018839942365302554,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251135.7363675": {
+    "timestamp": 1765251135.6747305,
+    "datetime": "2025-12-08T22:32:15.674731",
+    "emotion": "angry",
+    "flag": "NEUTRAL",
+    "confidence": 0.5,
+    "valence": -0.3787432050312291,
+    "arousal": 0.37873436304448016,
+    "ear": 0.3070032760939515,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.7365362742341061,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251136.796431": {
+    "timestamp": 1765251136.7324378,
+    "datetime": "2025-12-08T22:32:16.732438",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.2402063823996105,
+    "arousal": 0.22843416740858147,
+    "ear": 0.35943290378404597,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.5152678267467616,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.2
+    }
+  },
+  "1765251137.3192506": {
+    "timestamp": 1765251137.2606523,
+    "datetime": "2025-12-08T22:32:17.260652",
+    "emotion": "angry",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.44276699901635863,
+    "arousal": 0.42988225480266995,
+    "ear": 0.30081560543254093,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.495647265990696,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251137.8554387": {
+    "timestamp": 1765251137.795461,
+    "datetime": "2025-12-08T22:32:17.795461",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.138455290526973,
+    "arousal": 0.1327741679770183,
+    "ear": 0.30326137514929075,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.7299985703830263,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251139.4312723": {
+    "timestamp": 1765251139.3704066,
+    "datetime": "2025-12-08T22:32:19.370407",
+    "emotion": "angry",
+    "flag": "NEUTRAL",
+    "confidence": 0.5,
+    "valence": -0.20780233989442934,
+    "arousal": 0.38727483931934525,
+    "ear": 0.31918231838066846,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.5418959455693287,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.5,
+      "fatigue": 0.2
+    }
+  },
+  "1765251139.960867": {
+    "timestamp": 1765251139.8989723,
+    "datetime": "2025-12-08T22:32:19.898972",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.34759723459732655,
+    "arousal": -0.060006992858811045,
+    "ear": 0.3022831495997534,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.7671166692676777,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251140.4886646": {
+    "timestamp": 1765251140.4289658,
+    "datetime": "2025-12-08T22:32:20.428966",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.3965481953747465,
+    "arousal": 0.09060165206352372,
+    "ear": 0.29066839123160343,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.4069707373672019,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251141.020679": {
+    "timestamp": 1765251140.9560316,
+    "datetime": "2025-12-08T22:32:20.956032",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.14435466758679744,
+    "arousal": 0.029239577493049385,
+    "ear": 0.3153300046470673,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.4105150292561744,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251141.5534472": {
+    "timestamp": 1765251141.4837682,
+    "datetime": "2025-12-08T22:32:21.483768",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.06780068606952569,
+    "arousal": 0.00011904214826975387,
+    "ear": 0.3041366288065483,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.015356163284428216,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251142.0694535": {
+    "timestamp": 1765251142.008007,
+    "datetime": "2025-12-08T22:32:22.008007",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.039041315741279,
+    "arousal": -0.008173177724165176,
+    "ear": 0.3051062408725598,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.008300229904475636,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251142.6012857": {
+    "timestamp": 1765251142.5362723,
+    "datetime": "2025-12-08T22:32:22.536272",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.06184047439237386,
+    "arousal": -0.02323919346065856,
+    "ear": 0.29710283261438164,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.04835813062288482,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251143.1331728": {
+    "timestamp": 1765251143.068311,
+    "datetime": "2025-12-08T22:32:23.068311",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.08630223182814431,
+    "arousal": -0.01889325144904233,
+    "ear": 0.28765952438623543,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.028180782855198542,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251143.6592093": {
+    "timestamp": 1765251143.5957282,
+    "datetime": "2025-12-08T22:32:23.595728",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.13110450658214934,
+    "arousal": -0.03222393853379649,
+    "ear": 0.2877875250551446,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.05745806068641787,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251144.1834648": {
+    "timestamp": 1765251144.1233184,
+    "datetime": "2025-12-08T22:32:24.123318",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.16574871577460754,
+    "arousal": -0.03659403934781392,
+    "ear": 0.2902444977645776,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.030295386265473893,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251144.7141366": {
+    "timestamp": 1765251144.6519966,
+    "datetime": "2025-12-08T22:32:24.651997",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.14018088291404035,
+    "arousal": -0.03089747222991856,
+    "ear": 0.2718369251778565,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.052339293758505386,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251145.2403426": {
+    "timestamp": 1765251145.180483,
+    "datetime": "2025-12-08T22:32:25.180483",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.09309893845369191,
+    "arousal": -0.03576317602947397,
+    "ear": 0.2419378420725117,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.05708032518601182,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251145.7705758": {
+    "timestamp": 1765251145.7086155,
+    "datetime": "2025-12-08T22:32:25.708616",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.03824764498431961,
+    "arousal": -0.017647102761221573,
+    "ear": 0.2571507003993194,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.06455303551738764,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251146.2939625": {
+    "timestamp": 1765251146.2345107,
+    "datetime": "2025-12-08T22:32:26.234511",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.2004222722153712,
+    "arousal": -0.10103562608747443,
+    "ear": 0.24563134783578758,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.28499290727838944,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251146.830008": {
+    "timestamp": 1765251146.7658322,
+    "datetime": "2025-12-08T22:32:26.765832",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.06986499534097741,
+    "arousal": -0.0350917356168848,
+    "ear": 0.21797909180223168,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.28710343385638293,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251147.355304": {
+    "timestamp": 1765251147.2932804,
+    "datetime": "2025-12-08T22:32:27.293280",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.024757769663974173,
+    "arousal": -0.012479164724227209,
+    "ear": 0.23564712428623732,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.009399265261468306,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251147.8879647": {
+    "timestamp": 1765251147.8213596,
+    "datetime": "2025-12-08T22:32:27.821360",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.012382001497411397,
+    "arousal": -0.007255972704844653,
+    "ear": 0.2891064179805199,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.0027747651044869367,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251148.421003": {
+    "timestamp": 1765251148.3531501,
+    "datetime": "2025-12-08T22:32:28.353150",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.023572646026232852,
+    "arousal": -0.015541237110379035,
+    "ear": 0.306390693601789,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.025522173805414095,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251148.941674": {
+    "timestamp": 1765251148.8773487,
+    "datetime": "2025-12-08T22:32:28.877349",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.3052783648671408,
+    "arousal": -0.0728429366600927,
+    "ear": 0.23837838139711903,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.40527820798478453,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251149.6502135": {
+    "timestamp": 1765251149.4046156,
+    "datetime": "2025-12-08T22:32:29.404616",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.12481851805608786,
+    "arousal": -0.02120240200349306,
+    "ear": 0.27084798483057554,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.391093813068901,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251149.9916084": {
+    "timestamp": 1765251149.9295793,
+    "datetime": "2025-12-08T22:32:29.929579",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.32229150327189576,
+    "arousal": -0.07690488648982546,
+    "ear": 0.2816227492835617,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.37355638378587847,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251150.519919": {
+    "timestamp": 1765251150.4610548,
+    "datetime": "2025-12-08T22:32:30.461055",
+    "emotion": "sad",
+    "flag": "NEUTRAL",
+    "confidence": 0.7,
+    "valence": -0.6366871051389846,
+    "arousal": -0.08234416700707028,
+    "ear": 0.27909848936640846,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.36486077791904287,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.7,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251151.0513875": {
+    "timestamp": 1765251150.988389,
+    "datetime": "2025-12-08T22:32:30.988389",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.24972728791881568,
+    "arousal": -0.015635728895288296,
+    "ear": 0.27346431941317323,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": true,
+    "delta_E": 0.6944376353555985,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.4,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251151.5778317": {
+    "timestamp": 1765251151.5162687,
+    "datetime": "2025-12-08T22:32:31.516269",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.2986940811728511,
+    "arousal": -0.0551081475034584,
+    "ear": 0.27089034168330395,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.25063806719515047,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251152.102948": {
+    "timestamp": 1765251152.042729,
+    "datetime": "2025-12-08T22:32:32.042729",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.10556957098178588,
+    "arousal": -0.006299038736246671,
+    "ear": 0.2559493568718147,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.30926314710568537,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.2,
+      "fatigue": 0.4
+    }
+  },
+  "1765251152.6341083": {
+    "timestamp": 1765251152.5701933,
+    "datetime": "2025-12-08T22:32:32.570193",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.09047408416267487,
+    "arousal": -0.005442056219819185,
+    "ear": 0.2485856429855107,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.06429321240352798,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251153.1605382": {
+    "timestamp": 1765251153.100338,
+    "datetime": "2025-12-08T22:32:33.100338",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.04303108215018413,
+    "arousal": -0.004342035093732213,
+    "ear": 0.25416938790833127,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.061318047962539174,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251153.6996734": {
+    "timestamp": 1765251153.6278555,
+    "datetime": "2025-12-08T22:32:33.627856",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.02414812745643171,
+    "arousal": -0.005330608025284827,
+    "ear": 0.2782417241788405,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.006904842182891018,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  },
+  "1765251154.2267222": {
+    "timestamp": 1765251154.1564019,
+    "datetime": "2025-12-08T22:32:34.156402",
+    "emotion": "neutral",
+    "flag": "NEUTRAL",
+    "confidence": 0.6,
+    "valence": -0.03351947228027277,
+    "arousal": -0.01319552729454276,
+    "ear": 0.2876430476330386,
+    "is_fatigued": false,
+    "fatigue_confidence": 0.0,
+    "is_spike": false,
+    "delta_E": 0.024047916956493814,
+    "flow_magnitude": 0.0,
+    "scores": {
+      "stress": 0.0,
+      "rush": 0.0,
+      "fatigue": 0.4
+    }
+  }
+}

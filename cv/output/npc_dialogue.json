@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "player_text": "hey, what's up. I'm lost",
+  "npc_response": "\"Acknowledged, it sounds like you might be feeling a bit lost. Would you like to take a moment to relax and unwind, or maybe grab some resources from the nearby market?\"",
+  "emotion": "neutral",
+  "flag": "NEUTRAL",
+  "confidence": 0.64,
+  "valence": -0.10662891956500235,
+  "arousal": 0.3027930043752042,
+  "is_fatigued": false,
+  "timestamp": 1765249215.6979628
+}
