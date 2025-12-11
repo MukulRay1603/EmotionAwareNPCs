@@ -4,7 +4,9 @@
 
 
 ## 🎯 Abstract
-We propose a real-time computer-vision system that senses a player's affect from a webcam and adapts an NPC's dialogue in-game. Beyond a standard Facial Emotion Recognition (FER) network, we add novel modules grounded in core CV concepts: image mapping, layering, filtering, and temporal stacking.
+This project is real-time computer-vision system that senses a player's affect from a webcam and adapts an NPC's dialogue in-game. Beyond a standard Facial Emotion Recognition (FER) network that works together with an LLM (Ollama), we add novel modules grounded in core CV concepts: image mapping, layering, filtering, and temporal stacking.
+
+*Link to demo video, unity game are at the end of this readme*
 
 
 ## 📁 Repository Structure
@@ -24,9 +26,56 @@ EmotionAwareNPCs/
 
 ### Prerequisites
 - **Python 3.9** with pip
-- **Unity 2022.3 LTS** or higher
 - **Webcam access** for real-time emotion detection
 - **Git** for version control
+
+### Running the Game
+
+Although the project’s executable is lightweight (< 1 GB) and the game world is optimized, we recommend meeting the following system specifications to ensure stable performance, smooth post-processing, and real-time communication with the CV backend.
+Minimum Specs (Comparable to Genshin Impact Low Settings)
+
+- CPU: Intel Core i5 (7th gen) or Ryzen 5
+- GPU: NVIDIA GTX 1060 / AMD RX 580
+- RAM: 8 GB
+- Storage: 1 GB free space
+- OS: Windows 10 or later
+
+## Recommended Specs (Tested Development Environment)
+
+- CPU: Intel i9-10900K
+- GPU: NVIDIA RTX 3080
+- RAM: 32 GB
+- Storage: SSD recommended for fast loading
+- OS: Windows 10/11
+
+Notes
+
+- The Unity game executable is < 1 GB, but smooth gameplay under heavy post-processing (TAA/SMAA, AO, GI, bloom) benefits from a mid-tier GPU.
+- FER backend does not require GPU acceleration — runs on CPU.
+- Network ports must be available (default: 6000) for Unity ↔ backend communication.
+- Webcams that support low-light correction perform best with the CV pipeline.
+
+---
+
+## Unity Game & Graphics Factors
+
+- *Advanced Rendering Pipeline:*
+  The Unity build uses URP (unity rendering pipeline UNITY 6.2 LTS)
+  AAA-style graphic settings (FXAA, SMAA, TAA, ambient occlusion, bloom, tone mapping, HDR exposure control, and global illumination)
+  which directly influence image formation, shading, and pixel reconstruction and utilize topics central to computer vision.
+- *Optimized Terrain & Environment:*
+  The world includes high-quality terrain, volumetric clouds, and post-processing effects that create stable lighting and reduce visual noise.
+- *Consistent Illumination:*
+  Lighting, contrast, and exposure were tuned to maintain clear global illumination and minimize shading artifacts.
+- *Smooth Animation & Interaction:*
+  Characters (Asterine and Limi) use Mixamo animations, spline-based navigation, NavMesh AI and real-time UI triggers to ensure responsive gameplay during emotion-driven interactions.
+- *Performance-Aware Design:*
+  All visual settings are scalable, allowing the game to run on mid-range GPUs while still maintaining the fidelity needed for CV stability.
+
+
+---
+
+## SETUP
 
 ### 1. Clone the Repository and install LLama 3.2
 ```bash
@@ -39,8 +88,6 @@ ollama pull llama3.2:1b
 #To confirm installation
 ollama list
 ```
-
-
 
 ### 2. CV env setup
 ```bash
